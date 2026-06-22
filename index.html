@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Heme/Onc K-Hub</title>
+<meta name="description" content="NIH K-award tracker and conference deadline hub for hematology-oncology fellows." />
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- Chart.js -->
+<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">🩸</span>
+    <div>
+      <h1>Heme/Onc K-Hub</h1>
+      <p class="tagline">NIH K-award tracker &amp; conference deadlines for hematology-oncology fellows</p>
+    </div>
+  </div>
+  <div class="header-meta">
+    <span id="updated-badge" class="badge">Loading data…</span>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs" role="tablist">
+  <button class="tab active" data-tab="overview" role="tab">Overview</button>
+  <button class="tab" data-tab="grants" role="tab">Grant Library</button>
+  <button class="tab" data-tab="playbook" role="tab">Fellow's Playbook</button>
+  <button class="tab" data-tab="conferences" role="tab">Conference Deadlines</button>
+  <button class="tab" data-tab="map" role="tab">Institutions &amp; Map</button>
+  <button class="tab" data-tab="methodology" role="tab">Methodology</button>
+</nav>
+
+<main>
+
+<!-- ===================== OVERVIEW ===================== -->
+<section id="overview" class="panel active">
+  <div class="stat-grid" id="stat-grid"><!-- filled by app.js --></div>
+  <div class="chart-grid">
+    <div class="card"><h3>Awards by subarea</h3><div class="chart-wrap"><canvas id="chart-subarea"></canvas></div></div>
+    <div class="card"><h3>Awards by K-mechanism</h3><div class="chart-wrap"><canvas id="chart-mechanism"></canvas></div></div>
+    <div class="card"><h3>Clinical vs. laboratory</h3><div class="chart-wrap"><canvas id="chart-type"></canvas></div></div>
+    <div class="card"><h3>Active awards by fiscal year</h3><div class="chart-wrap"><canvas id="chart-fy"></canvas></div></div>
+    <div class="card wide"><h3>Awards by project start year</h3><div class="chart-wrap"><canvas id="chart-start"></canvas></div></div>
+  </div>
+</section>
+
+<!-- ===================== GRANT LIBRARY ===================== -->
+<section id="grants" class="panel">
+  <div class="toolbar">
+    <input type="search" id="grant-search" placeholder="Search title, PI, or institution…" />
+    <select id="filter-subarea"><option value="">All subareas</option></select>
+    <select id="filter-mechanism"><option value="">All mechanisms</option></select>
+    <select id="filter-type"><option value="">All research types</option></select>
+    <label class="checkbox"><input type="checkbox" id="filter-shortlist" /> Shortlist only ★</label>
+    <span class="result-count" id="grant-count"></span>
+  </div>
+  <div class="table-wrap">
+    <table id="grant-table">
+      <thead>
+        <tr>
+          <th data-sort="star" class="col-star">★</th>
+          <th data-sort="title">Project</th>
+          <th data-sort="pi">PI</th>
+          <th data-sort="org">Institution</th>
+          <th data-sort="subarea">Subarea</th>
+          <th data-sort="mechanism">Mech</th>
+          <th data-sort="research_type">Type</th>
+          <th data-sort="amount" class="num">Award</th>
+          <th data-sort="fiscal_year" class="num">FY</th>
+        </tr>
+      </thead>
+      <tbody id="grant-body"></tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===================== FELLOW'S PLAYBOOK ===================== -->
+<section id="playbook" class="panel">
+  <div class="card">
+    <h3>Match the K to your career stage</h3>
+    <table class="static-table">
+      <thead><tr><th>Mechanism</th><th>Who it's for</th><th>Mentored?</th><th>Notes for heme/onc fellows</th></tr></thead>
+      <tbody>
+        <tr><td><strong>K08</strong></td><td>Mentored lab/translational scientist (MD/PhD or MD)</td><td>Yes</td><td>Classic path for bench-oriented fellows; protects ~75% effort.</td></tr>
+        <tr><td><strong>K23</strong></td><td>Mentored patient-oriented researcher</td><td>Yes</td><td>For clinical/translational, outcomes, early-phase trial work.</td></tr>
+        <tr><td><strong>K99/R00</strong></td><td>Postdoc → independence "Pathway to Independence"</td><td>Yes → No</td><td>Best if you're not yet faculty; carries funding into your first faculty job.</td></tr>
+        <tr><td><strong>K12</strong></td><td>Institutional scholar (e.g., Paul Calabresi / BIRCWH)</td><td>Yes</td><td>Apply through your institution's program, not directly to NIH.</td></tr>
+        <tr><td><strong>K38</strong></td><td>Early MD/PhD-stage (StARR)</td><td>Yes</td><td>Often during residency/fellowship at participating institutions.</td></tr>
+        <tr><td><strong>K24</strong></td><td>Mid-career mentor (for your mentors)</td><td>—</td><td>Useful to know which faculty hold K24s — strong mentors.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="two-col">
+    <div class="card">
+      <h3>The funding ladder</h3>
+      <ol class="ladder">
+        <li><strong>Fellowship</strong> — T32 / F32 individual fellowship</li>
+        <li><strong>Mentored K</strong> — K08 / K23 / K99 (3–5 yrs protected time)</li>
+        <li><strong>Transition</strong> — K99→R00, or K → R01</li>
+        <li><strong>Independence</strong> — R01 / R37 / DP2; ASH/ASCO/AACR career grants alongside</li>
+      </ol>
+      <p class="muted">Society bridge awards (ASH RTAF/Scholar, ASCO/Conquer Cancer YIA &amp; CDA, AACR career grants, LLS, ACS) commonly fund the gap between fellowship and a K.</p>
+    </div>
+    <div class="card">
+      <h3>Standard NIH K receipt dates</h3>
+      <ul class="dates">
+        <li><span class="pill">New</span> Feb 12 · Jun 12 · Oct 12</li>
+        <li><span class="pill">Renewal/Resub</span> Mar 12 · Jul 12 · Nov 12</li>
+      </ul>
+      <p class="muted">AIDS-related and some FOAs differ — always confirm the dates in the specific funding opportunity.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>K-prep checklist</h3>
+    <ul class="checklist">
+      <li>Identify primary mentor + co-mentor/advisory committee early (12–18 months out).</li>
+      <li>Define a focused, fundable aims page; get it read by a K awardee in your division.</li>
+      <li>Secure institutional commitment letter (≥75% protected effort).</li>
+      <li>Line up a career-development / coursework plan (stats, responsible conduct, etc.).</li>
+      <li>Contact the program officer at your target IC (NCI/NHLBI) before submitting.</li>
+      <li>Budget for a strong preliminary-data and timeline section.</li>
+      <li>Plan letters of reference and biosketches with the "Contributions to Science" narrative.</li>
+    </ul>
+  </div>
+
+  <div class="two-col">
+    <div class="card">
+      <h3>Program officers &amp; contacts</h3>
+      <p>Find the IC program officer listed on funded awards similar to yours in the
+      <a href="#" data-jump="grants">Grant Library</a> — each links to its RePORTER record, which lists the PO.</p>
+      <ul class="links">
+        <li><a href="https://www.cancer.gov/grants-training" target="_blank" rel="noopener">NCI Grants &amp; Training</a></li>
+        <li><a href="https://www.nhlbi.nih.gov/grants-and-training" target="_blank" rel="noopener">NHLBI Grants &amp; Training</a></li>
+        <li><a href="https://grants.nih.gov/grants/guide/" target="_blank" rel="noopener">NIH Guide for Grants &amp; Contracts</a></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Study section</h3>
+      <p>K applications are reviewed by mechanism-specific and IC panels. Browse rosters and
+      past reviews via NIH CSR to target your science and anticipate reviewers.</p>
+      <ul class="links">
+        <li><a href="https://public.csr.nih.gov/StudySections" target="_blank" rel="noopener">CSR Study Sections</a></li>
+        <li><a href="https://reporter.nih.gov/" target="_blank" rel="noopener">NIH RePORTER (find funded examples)</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONFERENCE DEADLINES ===================== -->
+<section id="conferences" class="panel">
+  <div class="conf-intro">
+    <p>Abstract deadlines and submission guidelines for major heme/onc meetings, sorted by the
+    next upcoming deadline. <strong>Always confirm on the official site before relying on a date.</strong></p>
+    <span class="badge subtle" id="conf-verified"></span>
+  </div>
+  <div id="conf-list" class="conf-list"><!-- filled by conferences.js --></div>
+</section>
+
+<!-- ===================== INSTITUTIONS & MAP ===================== -->
+<section id="map" class="panel">
+  <div class="two-col map-row">
+    <div class="card">
+      <h3>Top institutions by active K-awards</h3>
+      <ol class="org-list" id="org-list"></ol>
+    </div>
+    <div class="card">
+      <h3>Awards by state</h3>
+      <div id="leaflet-map"></div>
+      <p class="muted">Circle size ∝ number of active heme/onc K-awards in that state.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== METHODOLOGY ===================== -->
+<section id="methodology" class="panel">
+  <div class="card">
+    <h3>Where the grant data comes from</h3>
+    <p>The Grant Library and Overview are built from the
+      <a href="https://api.reporter.nih.gov/" target="_blank" rel="noopener">NIH RePORTER API</a>,
+      refreshed weekly by an automated job. We query active
+      career-development (K-series) awards:
+      <code>K08, K23, K99, K12, K38, K43, K01, K22, K24</code>.</p>
+    <ul>
+      <li><strong>Oncology:</strong> all such awards administered by the <strong>NCI</strong>.</li>
+      <li><strong>Benign hematology:</strong> <strong>NHLBI</strong> awards whose title/abstract/terms
+        match hematology keywords (sickle cell, thrombosis, bone marrow failure, hematopoiesis, etc.),
+        so we capture blood disorders without pulling in cardiology/pulmonary awards.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>How awards are classified</h3>
+    <p><strong>Subarea</strong> is assigned by keyword matching on each award's title, abstract, and
+      NIH terms (Leukemia/MDS/MPN, Lymphoma, Myeloma, Cellular therapy/BMT, Immuno-oncology,
+      Benign hematology, Solid tumor, or Other). <strong>Research type</strong> is heuristic:
+      K23/K12 and awards mentioning clinical/patient-oriented language are tagged
+      "Patient-oriented / Clinical"; the rest "Laboratory / Translational." These are approximations —
+      use the linked RePORTER record as the source of truth.</p>
+  </div>
+  <div class="card">
+    <h3>Conference deadlines</h3>
+    <p>Conference data is <strong>manually curated</strong> and verified against each society's official
+      call-for-abstracts. Deadlines change yearly; the "last verified" date is shown on the
+      Conference Deadlines tab. Official sources:</p>
+    <ul class="links">
+      <li>AACR · ASCO · ASH · EHA · ESMO · SOHO · SITC · ASTRO · ASCO GI/GU symposia · SABCS · ASTCT/CIBMTR Tandem
+        (each conference card links to its official abstract page).</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>Limitations &amp; corrections</h3>
+    <ul>
+      <li>RePORTER reflects funded NIH awards only — foundation/society/industry awards are not included.</li>
+      <li>Award amounts shown are the most recent fiscal year's funding for each project.</li>
+      <li>Subarea/type classification is automated and imperfect.</li>
+      <li>To suggest a fix, open an issue on the project's GitHub repo (see README).</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Built for heme/onc fellows · Data from NIH RePORTER &amp; society call-for-abstracts ·
+     Not affiliated with NIH or any society. Verify all deadlines officially.</p>
+</footer>
+
+<script defer src="assets/charts.js"></script>
+<script defer src="assets/grants.js"></script>
+<script defer src="assets/map.js"></script>
+<script defer src="assets/conferences.js"></script>
+<script defer src="assets/app.js"></script>
+</body>
+</html>

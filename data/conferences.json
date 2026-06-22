@@ -1,0 +1,310 @@
+{
+  "last_verified": "2026-06-22",
+  "note": "Abstract deadlines change yearly. Dates below were verified against each society's official call-for-abstracts on the date above. Always confirm on the official site (linked) before relying on a deadline. 'Typical timing' describes the usual annual rhythm so you can anticipate next year's cycle before exact dates publish.",
+  "conferences": [
+    {
+      "name": "AACR Annual Meeting",
+      "full_name": "American Association for Cancer Research Annual Meeting",
+      "focus": "Basic, translational & clinical cancer research",
+      "society_url": "https://www.aacr.org/meeting/aacr-annual-meeting-2026/",
+      "abstract_url": "https://www.aacr.org/meeting/aacr-annual-meeting-2026/key-dates/",
+      "typical_timing": "Meeting in April. Regular abstracts due mid-November (prior year); late-breaking & clinical-trials abstracts due mid-January.",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-04-17",
+          "meeting_end": "2026-04-22",
+          "location": "San Diego, CA",
+          "deadlines": [
+            { "label": "Regular abstracts", "date": "2025-11-18", "time": "11:59 PM ET" },
+            { "label": "Late-breaking & clinical trials", "date": "2026-01-12", "time": "11:59 PM ET" }
+          ],
+          "guidelines": [
+            "Late-breaking/clinical-trials submission opens Dec 11, 2025.",
+            "Manuscript submission for simultaneous publication: Jan 20, 2026 (regular), Feb 17, 2026 (LB/CT).",
+            "Presenting author must be an AACR member (membership can be obtained during submission)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASCO Annual Meeting",
+      "full_name": "American Society of Clinical Oncology Annual Meeting",
+      "focus": "Clinical oncology — practice-changing trials across all tumor types",
+      "society_url": "https://www.asco.org/annual-meeting",
+      "abstract_url": "https://www.asco.org/annual-meeting/dates-know",
+      "typical_timing": "Meeting late May / early June. Regular abstracts due late January; late-breaking early March (a placeholder shell abstract is due at the regular deadline).",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-05-29",
+          "meeting_end": "2026-06-02",
+          "location": "Chicago, IL",
+          "deadlines": [
+            { "label": "Submitter opens", "date": "2025-11-05" },
+            { "label": "Regular abstracts", "date": "2026-01-27", "time": "11:59 PM ET" },
+            { "label": "Late-breaking abstracts", "date": "2026-03-09", "time": "12:00 PM (noon) ET", "note": "Requires a placeholder shell abstract submitted by the Jan 27 regular deadline." },
+            { "label": "Notifications to first authors", "date": "2026-03-27" }
+          ],
+          "guidelines": [
+            "Submit via the ASCO abstract portal; a shell abstract is required to be eligible for late-breaking.",
+            "Encore and prior-publication policies apply — review ASCO abstract policies & embargoes."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASH Annual Meeting",
+      "full_name": "American Society of Hematology Annual Meeting & Exposition",
+      "focus": "Malignant & benign hematology — the largest hematology meeting",
+      "society_url": "https://www.hematology.org/meetings/annual-meeting",
+      "abstract_url": "https://www.hematology.org/meetings/annual-meeting/abstracts/call-for-abstracts",
+      "typical_timing": "Meeting in December. Abstracts due early August.",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-12-12",
+          "meeting_end": "2026-12-15",
+          "location": "New Orleans, LA",
+          "deadlines": [
+            { "label": "Abstracts", "date": "2026-08-04", "time": "11:59 PM PT" }
+          ],
+          "guidelines": [
+            "$95 non-refundable handling fee per abstract (credit card only).",
+            "Online submission only — emailed abstracts are not accepted.",
+            "Presenting authors of accepted abstracts must attend in person."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EHA Congress",
+      "full_name": "European Hematology Association Congress",
+      "focus": "Hematology (malignant & benign) — the major European hematology meeting",
+      "society_url": "https://ehaweb.org/connect-network/eha2026-congress/eha2026-details-and-deadlines",
+      "abstract_url": "https://ehaweb.org/connect-network/eha2026-congress/eha2026-details-and-deadlines",
+      "typical_timing": "Congress in June. Submission opens January; regular abstracts due early March; late-breaking early May.",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-06-11",
+          "meeting_end": "2026-06-14",
+          "location": "Stockholm, Sweden",
+          "deadlines": [
+            { "label": "Submission opens", "date": "2026-01-01" },
+            { "label": "Regular abstracts", "date": "2026-03-01", "time": "23:59 CET" },
+            { "label": "Late-breaking abstracts", "date": "2026-05-07", "time": "09:00 CEST", "note": "Late-breaking submission opens Apr 30, 2026." }
+          ],
+          "guidelines": [
+            "Abstract submission terms & conditions are published annually (PDF on the EHA site)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ESMO Congress",
+      "full_name": "European Society for Medical Oncology Congress",
+      "focus": "Medical oncology — the major European oncology meeting",
+      "society_url": "https://www.esmo.org/meeting-calendar/esmo-congress-2026",
+      "abstract_url": "https://www.esmo.org/meeting-calendar/esmo-congress-2026/abstracts",
+      "typical_timing": "Congress in autumn (Oct/Nov). Abstracts (incl. preliminary late-breaking) due mid-May; finalized late-breaking due early September.",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-11-16",
+          "meeting_end": "2026-11-18",
+          "location": "Munich, Germany",
+          "deadlines": [
+            { "label": "All abstracts (incl. preliminary LB)", "date": "2026-05-12", "time": "21:00 CEST" },
+            { "label": "Finalized late-breaking abstracts", "date": "2026-09-08", "time": "21:00 CEST" }
+          ],
+          "guidelines": [
+            "A preliminary version of any intended late-breaking abstract must be submitted by the May deadline.",
+            "Review the ESMO Congress 2026 abstract regulations (PDF) for category-specific rules."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SOHO Annual Meeting",
+      "full_name": "Society of Hematologic Oncology Annual Meeting",
+      "focus": "Hematologic malignancies — leukemia, lymphoma, myeloma, MPN/MDS",
+      "society_url": "https://sohoonline.org/SOHO/iCore/Events/Event_display.aspx?EventKey=SOHO2026",
+      "abstract_url": "https://sohoonline.org/SOHO2026/SOHO2026/Abstracts.aspx",
+      "typical_timing": "Meeting in September (Houston). Abstracts due mid-May.",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-09-09",
+          "meeting_end": "2026-09-12",
+          "location": "Houston, TX",
+          "deadlines": [
+            { "label": "Abstracts", "date": "2026-05-15", "time": "11:59 PM CST" }
+          ],
+          "guidelines": [
+            "350-word limit (title, authors, keywords, affiliations excluded).",
+            "No tables, figures, graphs, or images.",
+            "Submit electronically in Microsoft Word format.",
+            "Top poster presentation receives a prize; presenting author gets complimentary registration (travel not reimbursed)."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SITC Annual Meeting",
+      "full_name": "Society for Immunotherapy of Cancer Annual Meeting",
+      "focus": "Cancer immunotherapy — basic, translational & clinical",
+      "society_url": "https://www.sitcancer.org/2026/home",
+      "abstract_url": "https://www.sitcancer.org/2026/abstracts/abstract-submission",
+      "typical_timing": "Meeting in November. Regular abstracts typically due mid-July; late-breaking mid-September. Confirm exact dates on the official site.",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-11-04",
+          "meeting_end": "2026-11-08",
+          "location": "Phoenix, AZ",
+          "deadlines": [
+            { "label": "Regular abstracts", "date": null, "note": "Typically mid-July — confirm on the SITC abstract page." },
+            { "label": "Late-breaking abstracts", "date": null, "note": "Typically mid-September — confirm on the SITC abstract page." }
+          ],
+          "guidelines": [
+            "41st Annual Meeting & Pre-Conference Programs.",
+            "Exact 2026 abstract deadlines were not yet posted at last verification — check the official abstract page."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASTRO Annual Meeting",
+      "full_name": "American Society for Radiation Oncology Annual Meeting",
+      "focus": "Radiation oncology — relevant for radiation-focused trainees & multidisciplinary work",
+      "society_url": "https://www.astro.org/meetings-and-education/micro-sites/2026/annual-meeting",
+      "abstract_url": "https://www.astro.org/meetings-and-education/micro-sites/2026/annual-meeting/learn/scientific-program/abstracts",
+      "typical_timing": "Meeting in late September. Submission opens early December; abstracts due late February; late-breaking final data due mid-July.",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-09-26",
+          "meeting_end": "2026-09-30",
+          "location": "Boston, MA",
+          "deadlines": [
+            { "label": "Submission opens", "date": "2025-12-04" },
+            { "label": "Abstracts", "date": "2026-02-24", "time": "11:59 PM PT" },
+            { "label": "Notifications", "date": "2026-05-14" },
+            { "label": "Late-breaking final data", "date": "2026-07-10", "time": "11:59 PM PT" }
+          ],
+          "guidelines": [
+            "$75 non-refundable fee per abstract.",
+            "No new authors may be added after the submission deadline."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASCO GI Cancers Symposium",
+      "full_name": "ASCO Gastrointestinal Cancers Symposium",
+      "focus": "Gastrointestinal malignancies",
+      "society_url": "https://www.asco.org/gi",
+      "abstract_url": "https://www.asco.org/gi/dates-know",
+      "typical_timing": "Symposium in January (San Francisco). Abstracts due early September (prior year); typo-correction window into mid-November.",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-01-15",
+          "meeting_end": "2026-01-17",
+          "location": "San Francisco, CA",
+          "deadlines": [
+            { "label": "Abstracts", "date": "2025-09-09", "note": "All authors & disclosures must be complete by this date." },
+            { "label": "Corrections (typos only)", "date": "2025-11-14" }
+          ],
+          "guidelines": [
+            "Held jointly by ASCO, AGA, ASTRO, and SSO.",
+            "Next cycle (2027) abstracts typically due early September 2026 — watch the ASCO GI dates page."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASCO GU Cancers Symposium",
+      "full_name": "ASCO Genitourinary Cancers Symposium",
+      "focus": "Genitourinary malignancies — prostate, kidney, bladder, testicular",
+      "society_url": "https://www.asco.org/gu",
+      "abstract_url": "https://www.asco.org/gu/dates-know",
+      "typical_timing": "Symposium in late January / February. Abstracts typically due late September / early October (prior year). Confirm on the ASCO GU dates page.",
+      "cycles": [
+        {
+          "year": 2026,
+          "location": "San Francisco, CA",
+          "deadlines": [
+            { "label": "Abstracts", "date": null, "note": "Typically late September / early October — confirm on the ASCO GU dates page." }
+          ],
+          "guidelines": [
+            "Held jointly by ASCO, ASTRO, and SUO."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SABCS",
+      "full_name": "San Antonio Breast Cancer Symposium",
+      "focus": "Breast cancer — basic, translational & clinical",
+      "society_url": "https://www.sabcs.org/",
+      "abstract_url": "https://www.sabcs.org/Submit-Info/Abstract-Submissions",
+      "typical_timing": "Symposium in December (San Antonio). Abstracts typically due mid-June; late-breaking early October. Confirm on the SABCS site.",
+      "cycles": [
+        {
+          "year": 2026,
+          "location": "San Antonio, TX",
+          "deadlines": [
+            { "label": "Abstracts", "date": null, "note": "Typically mid-June — confirm on the SABCS abstract page." },
+            { "label": "Late-breaking abstracts", "date": null, "note": "Typically early October — confirm on the SABCS abstract page." }
+          ],
+          "guidelines": [
+            "Co-sponsored by AACR, UT Health San Antonio, and Baylor College of Medicine."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASCO Gynecologic / Other Symposia",
+      "full_name": "ASCO Thematic Symposia (Gynecologic & others)",
+      "focus": "Gynecologic and other subspecialty oncology themed sessions",
+      "society_url": "https://www.asco.org/meetings-education/meetings",
+      "abstract_url": "https://www.asco.org/abstracts",
+      "typical_timing": "ASCO runs several smaller thematic meetings through the year. Deadlines vary — check the ASCO meetings calendar for the specific symposium.",
+      "cycles": [
+        {
+          "year": 2026,
+          "deadlines": [
+            { "label": "Varies by symposium", "date": null, "note": "See the ASCO meetings calendar for specific symposium deadlines." }
+          ],
+          "guidelines": [
+            "Use this as a pointer to ASCO's full meetings calendar for niche/subspecialty deadlines."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tandem Meetings (ASTCT | CIBMTR)",
+      "full_name": "Transplantation & Cellular Therapy Meetings of ASTCT and CIBMTR",
+      "focus": "Hematopoietic cell transplant, cellular & gene therapy",
+      "society_url": "https://www.tandemmeetings.com/",
+      "abstract_url": "https://www.tandemmeetings.com/Abstracts/Abstract-Information",
+      "typical_timing": "Meeting in February. Abstracts typically due late October / early November (prior year); late-breaking in December.",
+      "cycles": [
+        {
+          "year": 2026,
+          "meeting_start": "2026-02-04",
+          "meeting_end": "2026-02-07",
+          "location": "Salt Lake City, UT",
+          "deadlines": [
+            { "label": "Abstracts (closed)", "date": null, "note": "2026 cycle closed (meeting was Feb 2026)." }
+          ],
+          "guidelines": [
+            "For 2027: regular abstracts typically due late October / early November 2026 — watch the Tandem Key Dates page."
+          ]
+        }
+      ]
+    }
+  ]
+}
