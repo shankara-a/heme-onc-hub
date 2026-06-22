@@ -1,0 +1,204 @@
+{
+  "last_verified": "2026-06-22",
+  "note": "Non-NIH (society & foundation) funding opportunities that commonly support hematology-oncology fellows and early-career faculty. Amounts and deadlines change yearly and many run on recurring cycles — always confirm on the official page before relying on a date. To add an opportunity, append an entry below.",
+  "opportunities": [
+    {
+      "name": "ASH Research Training Award for Fellows (RTAF)",
+      "org": "American Society of Hematology (ASH)",
+      "category": "Society",
+      "focus": "Hematology (malignant & benign)",
+      "stage": "Fellow",
+      "amount": "$70,000/yr + $1,000 meeting support",
+      "duration": "1 year (up to a 2nd year for some)",
+      "eligibility": "MD or MD-PhD, 0–4 years from residency, in a hematology / heme-onc training program.",
+      "deadlines": [
+        { "label": "Full application", "date": null, "note": "2026 cycle closed (was ~mid-January). Next cycle typically due mid-January — verify on the ASH portal." }
+      ],
+      "typical_timing": "Applications typically due mid-January for funding that summer.",
+      "url": "https://www.hematology.org/awards/career-enhancement-and-training/research-training-award-for-fellows"
+    },
+    {
+      "name": "ASH Scholar Award",
+      "org": "American Society of Hematology (ASH)",
+      "category": "Society",
+      "focus": "Hematology (malignant & benign)",
+      "stage": "Fellow → Junior faculty",
+      "amount": "Up to $100,000 (fellow) / $150,000 (junior faculty)",
+      "duration": "2–3 years",
+      "eligibility": "Fellows in mentored postdoctoral positions, or junior faculty (Assistant Professor or equivalent).",
+      "deadlines": [
+        { "label": "Letter of intent", "date": "2026-05-01" },
+        { "label": "Invited full application", "date": "2026-08-03" }
+      ],
+      "typical_timing": "LOI early May; invited full application early August.",
+      "url": "https://www.hematology.org/awards/career-enhancement-and-training/scholar-award"
+    },
+    {
+      "name": "Conquer Cancer Young Investigator Award (YIA)",
+      "org": "Conquer Cancer, the ASCO Foundation",
+      "category": "Society",
+      "focus": "Clinical oncology (all tumor types; many subspecialty competitions)",
+      "stage": "Fellow → first faculty appointment",
+      "amount": "$50,000",
+      "duration": "1 year (mentored)",
+      "eligibility": "Physicians transitioning from fellowship to a faculty appointment; conducted under a mentor.",
+      "deadlines": [
+        { "label": "Varies by competition", "date": null, "note": "Multiple competitions with different deadlines (general + subspecialty/special, e.g. Drug Development, Survivorship, Pediatric Brain Tumors, AACR-Conquer Cancer Translational). Check the ASCO YIA page for the open competition." }
+      ],
+      "typical_timing": "General and special competitions open through the year; many deadlines fall winter–summer.",
+      "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/young-investigator-award"
+    },
+    {
+      "name": "Conquer Cancer Career Development Award (CDA)",
+      "org": "Conquer Cancer, the ASCO Foundation",
+      "category": "Society",
+      "focus": "Clinical cancer research (all tumor types)",
+      "stage": "Junior faculty",
+      "amount": "$200,000",
+      "duration": "3 years",
+      "eligibility": "Clinical investigators who have received their initial faculty appointment and are building an independent clinical cancer research program.",
+      "deadlines": [
+        { "label": "General competition", "date": null, "note": "Confirm the current cycle deadline on the ASCO CDA page." }
+      ],
+      "typical_timing": "Annual cycle; see the ASCO Career Development Award page.",
+      "url": "https://www.asco.org/career-development/grants-awards/funding-opportunities/career-development-award"
+    },
+    {
+      "name": "LLS Career Development Program (CDP)",
+      "org": "Leukemia & Lymphoma Society / Blood Cancer United",
+      "category": "Foundation",
+      "focus": "Blood cancers (leukemia, lymphoma, myeloma, MDS/MPN)",
+      "stage": "Fellow / Postdoc → Junior faculty",
+      "amount": "Fellow $70k/yr · Special Fellow $75k/yr · Scholar (Clinical) $125k/yr",
+      "duration": "Fellow/Special Fellow 2–3 yr · Scholar 5 yr",
+      "eligibility": "Tiered by stage (Fellow, Special Fellow, Scholar/Scholar in Clinical Research). Childcare stipend up to $3,600/yr.",
+      "deadlines": [
+        { "label": "Application", "date": null, "note": "2025/26 cycle was ~Oct 17. Next cycle typically due mid-October — verify in the Blood Cancer United / LLS portal." }
+      ],
+      "typical_timing": "Applications typically due mid-October.",
+      "url": "https://www.lls.org/research/career-development-program-cdp"
+    },
+    {
+      "name": "Damon Runyon Physician-Scientist Training Award",
+      "org": "Damon Runyon Cancer Research Foundation",
+      "category": "Foundation",
+      "focus": "Cancer research (physician-scientists)",
+      "stage": "Physician-scientist (early postdoctoral/fellowship)",
+      "amount": "$100k → $130k/yr ($460k total) + up to $100k med-school debt retirement",
+      "duration": "4 years",
+      "eligibility": "MD/MD-PhD physician-scientists pursuing mentored cancer research.",
+      "deadlines": [
+        { "label": "Application", "date": "2026-12-01", "time": "4:00 PM ET" }
+      ],
+      "typical_timing": "Annual deadline around December 1.",
+      "url": "https://www.damonrunyon.org/for-scientists/application-guidelines/physician-scientist"
+    },
+    {
+      "name": "ACS Postdoctoral Fellowship",
+      "org": "American Cancer Society (ACS)",
+      "category": "Foundation",
+      "focus": "Cancer research (any area)",
+      "stage": "Postdoc / Fellow",
+      "amount": "$66k → $70k/yr + $4k allowance",
+      "duration": "Up to 3 years",
+      "eligibility": "Postdoctoral / clinical fellows early in mentored research training.",
+      "deadlines": [
+        { "label": "Spring cycle", "date": null, "note": "June 1 cycle (passed for 2026)." },
+        { "label": "Fall cycle", "date": "2026-12-01" }
+      ],
+      "typical_timing": "Two cycles a year: June 1 and December 1.",
+      "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant/grant-types/postdoctoral-fellowships.html"
+    },
+    {
+      "name": "ACS Clinician Scientist Development Grant (CSDG)",
+      "org": "American Cancer Society (ACS)",
+      "category": "Foundation",
+      "focus": "Cancer research (clinician-scientists)",
+      "stage": "Junior faculty (with clinical duties)",
+      "amount": "$135,000 direct/yr (+ 8% indirect)",
+      "duration": "3–5 years",
+      "eligibility": "Full-time faculty with clinical responsibilities who do not yet lead an independent research program.",
+      "deadlines": [
+        { "label": "Spring cycle", "date": null, "note": "June 1 cycle (passed for 2026)." },
+        { "label": "Fall cycle", "date": "2026-12-01" }
+      ],
+      "typical_timing": "Two cycles a year: June 1 and December 1.",
+      "url": "https://www.cancer.org/research/we-fund-cancer-research/apply-research-grant.html"
+    },
+    {
+      "name": "AACR Research Fellowships",
+      "org": "American Association for Cancer Research (AACR)",
+      "category": "Society",
+      "focus": "Basic / translational / clinical cancer research (themed fellowships)",
+      "stage": "Postdoc / clinical research fellow",
+      "amount": "~$110,000–$130,000",
+      "duration": "2 years",
+      "eligibility": "Mentored early-career fellows; many themed tracks (e.g., Basic, Immuno-oncology, Cancer Disparities, disease-specific).",
+      "deadlines": [
+        { "label": "Varies by fellowship", "date": null, "note": "Each themed fellowship has its own deadline (e.g., 2026 Barker Basic ~Mar 3, Cancer Disparities ~Mar 12, FAACR Academy Impact ~Jun 30). See the AACR funding page for open opportunities." }
+      ],
+      "typical_timing": "Most deadlines fall late winter through early summer.",
+      "url": "https://www.aacr.org/professionals/research-funding/current-funding-opportunities/"
+    },
+    {
+      "name": "Lymphoma Research Foundation Postdoctoral Fellowship",
+      "org": "Lymphoma Research Foundation (LRF)",
+      "category": "Disease-specific",
+      "focus": "Lymphoma",
+      "stage": "Postdoc / Fellow",
+      "amount": "$195,000 ($60k/yr salary + $5k/yr supplies)",
+      "duration": "3 years",
+      "eligibility": "PhD fellows <5 yrs postdoc, or MD fellows 2–5 yrs into fellowship, in lymphoma research.",
+      "deadlines": [
+        { "label": "Application", "date": null, "note": "Confirm the current cycle on the LRF grants page." }
+      ],
+      "typical_timing": "Annual cycle; RFP usually posted in spring.",
+      "url": "https://lymphoma.org/researchers/rfp/"
+    },
+    {
+      "name": "Prostate Cancer Foundation Young Investigator Award",
+      "org": "Prostate Cancer Foundation (PCF)",
+      "category": "Disease-specific",
+      "focus": "Prostate cancer",
+      "stage": "Early-career investigator",
+      "amount": "$225,000 ($75k/yr)",
+      "duration": "3 years",
+      "eligibility": "Early-career physicians/scientists in prostate cancer research with a mentor.",
+      "deadlines": [
+        { "label": "Application", "date": null, "note": "Review in spring, decisions by early summer — confirm on the PCF open RFAs page." }
+      ],
+      "typical_timing": "RFA opens late in the year; review in spring.",
+      "url": "https://www.pcf.org/our-work/the-work-we-fund/young-investigator-awards/"
+    },
+    {
+      "name": "Burroughs Wellcome Career Award for Medical Scientists (CAMS)",
+      "org": "Burroughs Wellcome Fund",
+      "category": "Foundation",
+      "focus": "Physician-scientists (incl. cancer/hematology)",
+      "stage": "Late fellowship → early faculty (bridging award)",
+      "amount": "$700,000",
+      "duration": "5 years",
+      "eligibility": "MD/MD-PhD physician-scientists bridging advanced training to early faculty. Institutional nomination required.",
+      "deadlines": [
+        { "label": "Nomination", "date": null, "note": "Institutional (limited-submission) nomination, typically early October — check with your research office and the BWF page." }
+      ],
+      "typical_timing": "Annual; nomination window usually early autumn.",
+      "url": "https://www.bwfund.org/funding-opportunities/career-awards-for-medical-scientists/"
+    },
+    {
+      "name": "Chan Zuckerberg Initiative (CZI) Science",
+      "org": "Chan Zuckerberg Initiative",
+      "category": "Foundation",
+      "focus": "Biomedical science (programs rotate; some cancer/immunology relevant)",
+      "stage": "Varies (trainee → faculty, by program)",
+      "amount": "Varies by program",
+      "duration": "Varies by program",
+      "eligibility": "Program-specific. CZI runs rotating RFAs and resource programs rather than a standing fellowship; relevance to heme/onc varies by cycle.",
+      "deadlines": [
+        { "label": "Rotating RFAs", "date": null, "note": "No standing fellowship — watch CZI's open opportunities for relevant calls." }
+      ],
+      "typical_timing": "Opportunities open on rolling/rotating RFAs throughout the year.",
+      "url": "https://chanzuckerberg.com/science/programs-resources/open-opportunities/"
+    }
+  ]
+}

@@ -114,21 +114,47 @@ window.HK = window.HK || {};
     </div>`;
   }
 
-  HK.renderConferences = function (data) {
+  let confData = null;
+  let filter = "major";   // default to the major meetings; toggle to "all"
+
+  function render() {
     const list = document.getElementById("conf-list");
-    if (!list || !data) return;
+    if (!list || !confData) return;
     const today = new Date(); today.setHours(0, 0, 0, 0);
 
     const verified = document.getElementById("conf-verified");
-    if (verified && data.last_verified) {
-      verified.textContent = `Deadlines last verified ${data.last_verified}`;
+    if (verified && confData.last_verified) {
+      verified.textContent = `Deadlines last verified ${confData.last_verified}`;
     }
 
-    const ranked = (data.conferences || [])
+    const source = (confData.conferences || [])
+      .filter((c) => filter === "all" || c.major);
+
+    const ranked = source
       .map((c) => ({ conf: c, info: analyze(c, today) }))
       .sort((a, b) =>
         a.info.group - b.info.group || a.info.sortValue - b.info.sortValue);
 
     list.innerHTML = ranked.map((r) => card(r.conf, r.info, today)).join("");
+  }
+
+  function wireToggle() {
+    const toggle = document.getElementById("conf-toggle");
+    if (!toggle || toggle.dataset.wired) return;
+    toggle.dataset.wired = "1";
+    toggle.addEventListener("click", (e) => {
+      const btn = e.target.closest(".seg");
+      if (!btn) return;
+      filter = btn.dataset.confFilter;
+      toggle.querySelectorAll(".seg").forEach((b) =>
+        b.classList.toggle("active", b === btn));
+      render();
+    });
+  }
+
+  HK.renderConferences = function (data) {
+    confData = data;
+    wireToggle();
+    render();
   };
 })();

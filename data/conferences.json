@@ -4,6 +4,7 @@
   "conferences": [
     {
       "name": "AACR Annual Meeting",
+      "major": true,
       "full_name": "American Association for Cancer Research Annual Meeting",
       "focus": "Basic, translational & clinical cancer research",
       "society_url": "https://www.aacr.org/meeting/aacr-annual-meeting-2026/",
@@ -29,6 +30,7 @@
     },
     {
       "name": "ASCO Annual Meeting",
+      "major": true,
       "full_name": "American Society of Clinical Oncology Annual Meeting",
       "focus": "Clinical oncology — practice-changing trials across all tumor types",
       "society_url": "https://www.asco.org/annual-meeting",
@@ -55,6 +57,7 @@
     },
     {
       "name": "ASH Annual Meeting",
+      "major": true,
       "full_name": "American Society of Hematology Annual Meeting & Exposition",
       "focus": "Malignant & benign hematology — the largest hematology meeting",
       "society_url": "https://www.hematology.org/meetings/annual-meeting",

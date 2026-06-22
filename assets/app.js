@@ -2,7 +2,7 @@
 window.HK = window.HK || {};
 
 (function () {
-  const state = { grants: null, meta: null, conf: null, inited: {} };
+  const state = { grants: null, meta: null, conf: null, fund: null, inited: {} };
 
   const $ = (id) => document.getElementById(id);
 
@@ -38,6 +38,9 @@ window.HK = window.HK || {};
         break;
       case "conferences":
         if (state.conf) { HK.renderConferences(state.conf); state.inited.conferences = true; }
+        break;
+      case "funding":
+        if (state.fund) { HK.renderFunding(state.fund); state.inited.funding = true; }
         break;
     }
   }
@@ -77,15 +80,17 @@ window.HK = window.HK || {};
   }
 
   async function boot() {
-    const [grants, meta, conf] = await Promise.allSettled([
+    const [grants, meta, conf, fund] = await Promise.allSettled([
       loadJSON("data/grants.json"),
       loadJSON("data/grants_meta.json"),
       loadJSON("data/conferences.json"),
+      loadJSON("data/funding.json"),
     ]);
 
     state.grants = grants.status === "fulfilled" ? grants.value : null;
     state.meta = meta.status === "fulfilled" ? meta.value : null;
     state.conf = conf.status === "fulfilled" ? conf.value : null;
+    state.fund = fund.status === "fulfilled" ? fund.value : null;
 
     renderOverview();
 
@@ -98,6 +103,11 @@ window.HK = window.HK || {};
         `<div class="error-box">Could not load conference data
          (data/conferences.json). If you opened the file directly, serve it over HTTP
          instead: <code>python -m http.server</code>.</div>`;
+    }
+    if (!state.fund) {
+      $("funding-list").innerHTML =
+        `<div class="error-box">Could not load funding data (data/funding.json).
+         Serve over HTTP: <code>python -m http.server</code>.</div>`;
     }
     if (!state.grants) {
       $("grant-body").innerHTML =

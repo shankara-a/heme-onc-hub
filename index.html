@@ -32,6 +32,7 @@
 <nav class="tabs" id="tabs" role="tablist">
   <button class="tab active" data-tab="overview" role="tab">Overview</button>
   <button class="tab" data-tab="grants" role="tab">Grant Library</button>
+  <button class="tab" data-tab="funding" role="tab">Funding</button>
   <button class="tab" data-tab="playbook" role="tab">Fellow's Playbook</button>
   <button class="tab" data-tab="conferences" role="tab">Conference Deadlines</button>
   <button class="tab" data-tab="map" role="tab">Institutions &amp; Map</button>
@@ -80,6 +81,23 @@
       <tbody id="grant-body"></tbody>
     </table>
   </div>
+</section>
+
+<!-- ===================== FUNDING (NON-NIH) ===================== -->
+<section id="funding" class="panel">
+  <div class="conf-intro">
+    <div class="segmented" id="funding-toggle" role="tablist" aria-label="Funding category filter">
+      <button class="seg active" data-fund-filter="all">All</button>
+      <button class="seg" data-fund-filter="Society">Society</button>
+      <button class="seg" data-fund-filter="Foundation">Foundation</button>
+      <button class="seg" data-fund-filter="Disease-specific">Disease-specific</button>
+    </div>
+    <span class="badge subtle" id="funding-verified"></span>
+  </div>
+  <p class="muted conf-blurb">Non-NIH society &amp; foundation awards that fund heme/onc fellows, sorted by next deadline.
+    Many run on annual cycles — <strong>confirm details on each official page.</strong>
+    (For NIH K-awards, see the <a href="#" data-jump="grants">Grant Library</a> and <a href="#" data-jump="playbook">Fellow's Playbook</a>.)</p>
+  <div id="funding-list" class="conf-list"><!-- filled by funding.js --></div>
 </section>
 
 <!-- ===================== FELLOW'S PLAYBOOK ===================== -->
@@ -159,10 +177,14 @@
 <!-- ===================== CONFERENCE DEADLINES ===================== -->
 <section id="conferences" class="panel">
   <div class="conf-intro">
-    <p>Abstract deadlines and submission guidelines for major heme/onc meetings, sorted by the
-    next upcoming deadline. <strong>Always confirm on the official site before relying on a date.</strong></p>
+    <div class="segmented" id="conf-toggle" role="tablist" aria-label="Conference filter">
+      <button class="seg active" data-conf-filter="major">Major <span class="seg-sub">ASH · ASCO · AACR</span></button>
+      <button class="seg" data-conf-filter="all">All conferences</button>
+    </div>
     <span class="badge subtle" id="conf-verified"></span>
   </div>
+  <p class="muted conf-blurb">Abstract deadlines &amp; submission guidelines, sorted by the next upcoming deadline.
+    <strong>Always confirm on the official site before relying on a date.</strong></p>
   <div id="conf-list" class="conf-list"><!-- filled by conferences.js --></div>
 </section>
 
@@ -207,6 +229,15 @@
       use the linked RePORTER record as the source of truth.</p>
   </div>
   <div class="card">
+    <h3>Funding opportunities (non-NIH)</h3>
+    <p>The <strong>Funding</strong> tab lists society &amp; foundation awards that commonly support
+      heme/onc fellows (ASH, Conquer Cancer/ASCO, LLS/Blood Cancer United, Damon Runyon, ACS,
+      AACR, plus disease-specific foundations and others). It is <strong>manually curated</strong>
+      and verified against each funder's official page. Amounts/deadlines change yearly and many
+      run on recurring cycles — treat each card as a pointer and confirm on the official page.
+      It complements the NIH-only Grant Library.</p>
+  </div>
+  <div class="card">
     <h3>Conference deadlines</h3>
     <p>Conference data is <strong>manually curated</strong> and verified against each society's official
       call-for-abstracts. Deadlines change yearly; the "last verified" date is shown on the
@@ -238,6 +269,7 @@
 <script defer src="assets/grants.js"></script>
 <script defer src="assets/map.js"></script>
 <script defer src="assets/conferences.js"></script>
+<script defer src="assets/funding.js"></script>
 <script defer src="assets/app.js"></script>
 </body>
 </html>
