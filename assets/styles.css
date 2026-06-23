@@ -32,12 +32,8 @@ a { color: var(--accent); }
   background: linear-gradient(100deg, var(--primary-dark), var(--primary));
   color: #fff;
 }
-.header-inner {
-  max-width: 1180px; margin: 0 auto; padding: 18px;
-  display: flex; align-items: flex-start; gap: 14px;
-}
+.header-inner { max-width: 1180px; margin: 0 auto; padding: 18px; }
 .header-text { display: flex; flex-direction: column; }
-.logo { font-size: 30px; line-height: 1.1; }
 .site-header h1 { margin: 0; font-size: 22px; letter-spacing: .2px; }
 .tagline { margin: 2px 0 0; font-size: 13px; opacity: .85; }
 #updated-badge { align-self: flex-start; margin-top: 9px; }
