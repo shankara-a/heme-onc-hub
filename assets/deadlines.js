@@ -4,7 +4,7 @@ window.HK = window.HK || {};
 
 (function () {
   const U = () => HK.util;
-  let confData = null, fundData = null, view = "90";
+  let confData = null, fundData = null, view = "90", typeFilter = "all";
 
   // Standard NIH receipt dates (non-AIDS). month is 1-based.
   const NIH_DATES = [
@@ -88,6 +88,8 @@ window.HK = window.HK || {};
     let items = collect();
     const today = U().today();
 
+    if (typeFilter !== "all") items = items.filter((it) => it.cls === typeFilter);
+
     if (view === "saved") {
       const saved = HK.store.list();
       items = items.filter((it) => saved.has(it.saveId));
@@ -109,23 +111,28 @@ window.HK = window.HK || {};
           : "Nothing due in this window."}</p>`;
   }
 
+  function wireToggle(id, apply) {
+    const el = document.getElementById(id);
+    if (!el || el.dataset.wired) return;
+    el.dataset.wired = "1";
+    el.addEventListener("click", (e) => {
+      const btn = e.target.closest(".seg");
+      if (!btn) return;
+      apply(btn);
+      el.querySelectorAll(".seg").forEach((b) => b.classList.toggle("active", b === btn));
+      render();
+    });
+  }
+
   function wire() {
-    const toggle = document.getElementById("dl-toggle");
-    if (toggle && !toggle.dataset.wired) {
-      toggle.dataset.wired = "1";
-      toggle.addEventListener("click", (e) => {
-        const btn = e.target.closest(".seg");
-        if (!btn) return;
-        view = btn.dataset.dlView;
-        toggle.querySelectorAll(".seg").forEach((b) => b.classList.toggle("active", b === btn));
-        render();
-      });
-    }
+    wireToggle("dl-toggle", (btn) => { view = btn.dataset.dlView; });
+    wireToggle("dl-type-toggle", (btn) => { typeFilter = btn.dataset.dlType; });
+
     // keep the list in sync when a star is toggled anywhere
     if (!HK._dlStarWired) {
       HK._dlStarWired = true;
       document.addEventListener("hk:saved", () => {
-        if (document.getElementById("deadlines")?.classList.contains("active")) render();
+        if (document.getElementById("overview")?.classList.contains("active")) render();
         else HK._dlDirty = true;
       });
     }

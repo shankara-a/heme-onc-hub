@@ -21,7 +21,7 @@ window.HK = window.HK || {};
       p.classList.toggle("active", p.id === name));
     ensureTab(name);
     if (name === "map" && HK.refreshMap) HK.refreshMap();
-    if (name === "deadlines" && HK._dlDirty) { HK.renderDeadlines(state.conf, state.fund); HK._dlDirty = false; }
+    if (name === "overview" && HK._dlDirty) { HK.renderDeadlines(state.conf, state.fund); HK._dlDirty = false; }
     if (history.replaceState) history.replaceState(null, "", "#" + name);
   }
 
@@ -29,7 +29,9 @@ window.HK = window.HK || {};
     if (state.inited[name]) return;
     switch (name) {
       case "overview":
-        if (state.meta) { HK.renderCharts(state.meta); state.inited.overview = true; }
+        if (state.meta) HK.renderCharts(state.meta);
+        HK.renderDeadlines(state.conf, state.fund);
+        state.inited.overview = true;
         break;
       case "grants":
         if (state.grants) { HK.initGrants(state.grants); state.inited.grants = true; }
@@ -42,9 +44,6 @@ window.HK = window.HK || {};
         break;
       case "funding":
         if (state.fund) { HK.renderFunding(state.fund); state.inited.funding = true; }
-        break;
-      case "deadlines":
-        HK.renderDeadlines(state.conf, state.fund); state.inited.deadlines = true;
         break;
     }
   }

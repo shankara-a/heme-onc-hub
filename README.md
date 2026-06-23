@@ -2,10 +2,11 @@
 
 A web tool for hematology-oncology fellows and faculty that brings together, in one place:
 
-- **Upcoming Deadlines** — one chronological dashboard merging conference abstract deadlines,
-  non-NIH funding deadlines, and standard NIH K receipt dates. Filter by next 90 days / next
-  year / saved. Each item has a one-click **📅 add-to-calendar (.ics)** (with a 7-day reminder)
-  and a **★ save** button; saved items work across the whole app.
+- **Overview dashboard** — headline stats, an **Upcoming Deadlines** panel (merging conference
+  abstract deadlines, non-NIH funding deadlines, and standard NIH K receipt dates), and award
+  charts, all on one page. Filter deadlines by window (next 90 days / next year / saved) and by
+  type (All / Conference / Funding / NIH K). Each item has a one-click **📅 add-to-calendar
+  (.ics)** (with a 7-day reminder) and a **★ save** button; saved items work across the app.
 
 - **NIH K-award grant library** — active career-development (K-series) awards relevant to
   heme/onc, pulled live from the [NIH RePORTER API](https://api.reporter.nih.gov/) and

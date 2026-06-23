@@ -31,7 +31,6 @@
 
 <nav class="tabs" id="tabs" role="tablist">
   <button class="tab active" data-tab="overview" role="tab">Overview</button>
-  <button class="tab" data-tab="deadlines" role="tab">Deadlines</button>
   <button class="tab" data-tab="grants" role="tab">Grant Library</button>
   <button class="tab" data-tab="funding" role="tab">Funding</button>
   <button class="tab" data-tab="playbook" role="tab">Fellow's Playbook</button>
@@ -45,29 +44,41 @@
 <!-- ===================== OVERVIEW ===================== -->
 <section id="overview" class="panel active">
   <div class="stat-grid" id="stat-grid"><!-- filled by app.js --></div>
+
+  <div class="dash-grid">
+    <div class="card dash-deadlines">
+      <div class="dash-head">
+        <h3>Upcoming deadlines</h3>
+        <span class="result-count" id="dl-count"></span>
+      </div>
+      <div class="dl-controls">
+        <div class="segmented" id="dl-toggle" role="tablist" aria-label="Deadline window">
+          <button class="seg active" data-dl-view="90">90 days</button>
+          <button class="seg" data-dl-view="365">Year</button>
+          <button class="seg" data-dl-view="saved">★ Saved</button>
+        </div>
+        <div class="segmented small" id="dl-type-toggle" role="tablist" aria-label="Deadline type">
+          <button class="seg active" data-dl-type="all">All</button>
+          <button class="seg" data-dl-type="conference">Conf</button>
+          <button class="seg" data-dl-type="funding">Funding</button>
+          <button class="seg" data-dl-type="nih">NIH&nbsp;K</button>
+        </div>
+      </div>
+      <div id="dl-list" class="dl-list scroll"><!-- filled by deadlines.js --></div>
+      <p class="dash-hint muted"><span class="ico">📅</span> add to calendar · <span class="ico">☆</span> save</p>
+    </div>
+
+    <div class="dash-charts">
+      <div class="card"><h3>Awards by subarea</h3><div class="chart-wrap sm"><canvas id="chart-subarea"></canvas></div></div>
+      <div class="card"><h3>Awards by K-mechanism</h3><div class="chart-wrap sm"><canvas id="chart-mechanism"></canvas></div></div>
+    </div>
+  </div>
+
   <div class="chart-grid">
-    <div class="card"><h3>Awards by subarea</h3><div class="chart-wrap"><canvas id="chart-subarea"></canvas></div></div>
-    <div class="card"><h3>Awards by K-mechanism</h3><div class="chart-wrap"><canvas id="chart-mechanism"></canvas></div></div>
     <div class="card"><h3>Clinical vs. laboratory</h3><div class="chart-wrap"><canvas id="chart-type"></canvas></div></div>
     <div class="card"><h3>Active awards by fiscal year</h3><div class="chart-wrap"><canvas id="chart-fy"></canvas></div></div>
     <div class="card wide"><h3>Awards by project start year</h3><div class="chart-wrap"><canvas id="chart-start"></canvas></div></div>
   </div>
-</section>
-
-<!-- ===================== UPCOMING DEADLINES ===================== -->
-<section id="deadlines" class="panel">
-  <div class="conf-intro">
-    <div class="segmented" id="dl-toggle" role="tablist" aria-label="Deadline window">
-      <button class="seg active" data-dl-view="90">Next 90 days</button>
-      <button class="seg" data-dl-view="365">Next year</button>
-      <button class="seg" data-dl-view="saved">★ Saved</button>
-    </div>
-    <span class="result-count" id="dl-count"></span>
-  </div>
-  <p class="muted conf-blurb">Conference abstract deadlines, non-NIH funding deadlines, and standard
-    NIH&nbsp;K receipt dates in one place. Tap <span class="ico">📅</span> to add a reminder to your
-    calendar, or <span class="ico">☆</span> to save it.</p>
-  <div id="dl-list" class="dl-list"><!-- filled by deadlines.js --></div>
 </section>
 
 <!-- ===================== GRANT LIBRARY ===================== -->

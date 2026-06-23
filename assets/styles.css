@@ -96,6 +96,25 @@ main { max-width: 1180px; margin: 0 auto; padding: 24px 18px 60px; }
 @media (max-width: 760px) { .chart-grid { grid-template-columns: 1fr; } }
 .chart-wrap { position: relative; height: 260px; }
 .wide .chart-wrap { height: 300px; }
+.chart-wrap.sm { height: 200px; }
+
+/* ---------- overview dashboard (stats + deadlines + charts) ---------- */
+.dash-grid {
+  display: grid; grid-template-columns: 1.25fr 1fr; gap: 18px;
+  margin-bottom: 18px; align-items: start;
+}
+@media (max-width: 860px) { .dash-grid { grid-template-columns: 1fr; } }
+.dash-deadlines { display: flex; flex-direction: column; margin-bottom: 0; }
+.dash-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
+.dash-head h3 { margin: 0; }
+.dl-controls { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.dash-deadlines .dl-list { box-shadow: none; }
+.dl-list.scroll { max-height: 460px; overflow-y: auto; }
+.dash-hint { margin: 10px 0 0; font-size: 11.5px; }
+.dash-charts { display: flex; flex-direction: column; gap: 18px; }
+.dash-charts .card { margin-bottom: 0; }
+.segmented.small .seg { padding: 5px 10px; font-size: 12px; }
+.segmented.small { padding: 2px; }
 
 /* ---------- toolbar / filters ---------- */
 .toolbar {
