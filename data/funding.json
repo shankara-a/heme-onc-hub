@@ -186,6 +186,21 @@
       "url": "https://themmrf.org/for-researchers/grants-funding-opportunities/"
     },
     {
+      "name": "ASTCT New Investigator Award",
+      "org": "American Society for Transplantation and Cellular Therapy (ASTCT)",
+      "category": "Disease-specific",
+      "focus": "Hematopoietic cell transplant & cellular therapy",
+      "stage": "Early-career (clinical or lab)",
+      "amount": "$50,000/yr",
+      "duration": "2 years",
+      "eligibility": "Young investigators pursuing clinical and/or laboratory research in HCT / cellular therapy.",
+      "deadlines": [
+        { "label": "Application", "date": null, "note": "Typically autumn (past cycles ~late September) — confirm on the ASTCT awards page." }
+      ],
+      "typical_timing": "Annual cycle; applications typically due in the autumn.",
+      "url": "https://www.astct.org/Careers/Awards/New-Investigator-Award"
+    },
+    {
       "name": "Prostate Cancer Foundation Young Investigator Award",
       "org": "Prostate Cancer Foundation (PCF)",
       "category": "Disease-specific",

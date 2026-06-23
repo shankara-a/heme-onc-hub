@@ -31,6 +31,7 @@
 
 <nav class="tabs" id="tabs" role="tablist">
   <button class="tab active" data-tab="overview" role="tab">Overview</button>
+  <button class="tab" data-tab="deadlines" role="tab">Deadlines</button>
   <button class="tab" data-tab="grants" role="tab">Grant Library</button>
   <button class="tab" data-tab="funding" role="tab">Funding</button>
   <button class="tab" data-tab="playbook" role="tab">Fellow's Playbook</button>
@@ -51,6 +52,22 @@
     <div class="card"><h3>Active awards by fiscal year</h3><div class="chart-wrap"><canvas id="chart-fy"></canvas></div></div>
     <div class="card wide"><h3>Awards by project start year</h3><div class="chart-wrap"><canvas id="chart-start"></canvas></div></div>
   </div>
+</section>
+
+<!-- ===================== UPCOMING DEADLINES ===================== -->
+<section id="deadlines" class="panel">
+  <div class="conf-intro">
+    <div class="segmented" id="dl-toggle" role="tablist" aria-label="Deadline window">
+      <button class="seg active" data-dl-view="90">Next 90 days</button>
+      <button class="seg" data-dl-view="365">Next year</button>
+      <button class="seg" data-dl-view="saved">★ Saved</button>
+    </div>
+    <span class="result-count" id="dl-count"></span>
+  </div>
+  <p class="muted conf-blurb">Conference abstract deadlines, non-NIH funding deadlines, and standard
+    NIH&nbsp;K receipt dates in one place. Tap <span class="ico">📅</span> to add a reminder to your
+    calendar, or <span class="ico">☆</span> to save it.</p>
+  <div id="dl-list" class="dl-list"><!-- filled by deadlines.js --></div>
 </section>
 
 <!-- ===================== GRANT LIBRARY ===================== -->
@@ -265,11 +282,13 @@
      Not affiliated with NIH or any society. Verify all deadlines officially.</p>
 </footer>
 
+<script defer src="assets/util.js"></script>
 <script defer src="assets/charts.js"></script>
 <script defer src="assets/grants.js"></script>
 <script defer src="assets/map.js"></script>
 <script defer src="assets/conferences.js"></script>
 <script defer src="assets/funding.js"></script>
+<script defer src="assets/deadlines.js"></script>
 <script defer src="assets/app.js"></script>
 </body>
 </html>

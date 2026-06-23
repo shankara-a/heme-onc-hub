@@ -78,14 +78,18 @@ window.HK = window.HK || {};
     const cardCls = info.group === 2 ? "closed" : (cd.cls === "urgent" ? "urgent" : "");
 
     const dlItems = info.deadlines.map((d) => {
-      let dateCls = "dl-date", dateTxt;
+      let dateCls = "dl-date", dateTxt, cal = "";
       if (!d.dateObj) { dateCls += " tba"; dateTxt = "TBA"; }
       else if (d.dateObj < today) { dateCls += " past"; dateTxt = fmt(d.dateObj); }
-      else { dateTxt = fmt(d.dateObj); }
+      else {
+        dateTxt = fmt(d.dateObj);
+        cal = HK.util.calBtn({ title: `${conf.name} — ${d.label}`, date: d.date,
+          description: d.label, url: conf.abstract_url || conf.society_url });
+      }
       const time = d.time ? ` <span class="muted">(${esc(d.time)})</span>` : "";
       const note = d.note ? `<div class="dl-note">${esc(d.note)}</div>` : "";
       return `<li><span class="${dateCls}">${dateTxt}</span>` +
-             `<span class="dl-label">${esc(d.label)}${time}</span>${note}</li>`;
+             `<span class="dl-label">${esc(d.label)}${time}</span>${cal}${note}</li>`;
     }).join("");
 
     const guidelines = (cycle.guidelines || []).length
@@ -103,9 +107,12 @@ window.HK = window.HK || {};
           <p class="conf-meta">${esc(meetingLine(cycle))}</p>
           ${conf.focus ? `<span class="conf-focus">${esc(conf.focus)}</span>` : ""}
         </div>
-        <div class="countdown ${cd.cls}">
-          <div>${cd.txt}</div>
-          <div class="muted" style="font-weight:400">${esc(cd.sub)}</div>
+        <div class="card-actions">
+          ${HK.util.starBtn("conf:" + conf.name)}
+          <div class="countdown ${cd.cls}">
+            <div>${cd.txt}</div>
+            <div class="muted" style="font-weight:400">${esc(cd.sub)}</div>
+          </div>
         </div>
       </div>
       <ul class="deadline-list">${dlItems}</ul>

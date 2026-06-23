@@ -85,7 +85,7 @@ window.HK = window.HK || {};
       tr.innerHTML =
         `<td class="star-cell ${starred ? "on" : ""}" data-id="${g.core_project_num}">${starred ? "★" : "☆"}</td>` +
         `<td><a href="${g.url}" target="_blank" rel="noopener">${esc(g.title)}</a></td>` +
-        `<td>${esc(g.pi)}</td>` +
+        `<td>${esc(g.pi)}${g.po ? `<div class="muted po">PO: ${esc(g.po)}</div>` : ""}</td>` +
         `<td>${esc(g.org)}<div class="muted">${esc([g.city, g.state].filter(Boolean).join(", "))}</div></td>` +
         `<td><span class="subarea-tag">${esc(g.subarea)}</span></td>` +
         `<td class="mech-tag">${esc(g.mechanism)}</td>` +

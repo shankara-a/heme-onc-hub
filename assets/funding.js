@@ -57,14 +57,18 @@ window.HK = window.HK || {};
     const cardCls = info.group === 2 ? "closed" : (cd.cls === "urgent" ? "urgent" : "");
 
     const dlItems = info.deadlines.map((d) => {
-      let dateCls = "dl-date", dateTxt;
+      let dateCls = "dl-date", dateTxt, cal = "";
       if (!d.dateObj) { dateCls += " tba"; dateTxt = "TBA"; }
       else if (d.dateObj < today) { dateCls += " past"; dateTxt = fmt(d.dateObj); }
-      else { dateTxt = fmt(d.dateObj); }
+      else {
+        dateTxt = fmt(d.dateObj);
+        cal = HK.util.calBtn({ title: `${opp.name} — ${d.label}`, date: d.date,
+          description: opp.amount || d.label, url: opp.url });
+      }
       const time = d.time ? ` <span class="muted">(${esc(d.time)})</span>` : "";
       const note = d.note ? `<div class="dl-note">${esc(d.note)}</div>` : "";
       return `<li><span class="${dateCls}">${dateTxt}</span>` +
-             `<span class="dl-label">${esc(d.label)}${time}</span>${note}</li>`;
+             `<span class="dl-label">${esc(d.label)}${time}</span>${cal}${note}</li>`;
     }).join("");
 
     const chips = [
@@ -79,9 +83,12 @@ window.HK = window.HK || {};
           <h3 class="conf-name"><a href="${esc(opp.url)}" target="_blank" rel="noopener">${esc(opp.name)}</a></h3>
           <p class="conf-full">${esc(opp.org || "")}</p>
         </div>
-        <div class="countdown ${cd.cls}">
-          <div>${cd.txt}</div>
-          <div class="muted" style="font-weight:400">${esc(cd.sub)}</div>
+        <div class="card-actions">
+          ${HK.util.starBtn("fund:" + opp.name)}
+          <div class="countdown ${cd.cls}">
+            <div>${cd.txt}</div>
+            <div class="muted" style="font-weight:400">${esc(cd.sub)}</div>
+          </div>
         </div>
       </div>
       <p class="fund-amount"><strong>${esc(opp.amount || "")}</strong>${opp.duration ? ` · ${esc(opp.duration)}` : ""}</p>
