@@ -156,6 +156,36 @@
       "url": "https://lymphoma.org/researchers/rfp/"
     },
     {
+      "name": "MMRF Research Fellow Award",
+      "org": "Multiple Myeloma Research Foundation (MMRF)",
+      "category": "Disease-specific",
+      "focus": "Multiple myeloma & precursor conditions",
+      "stage": "Postdoc / Clinical fellow / Junior faculty",
+      "amount": "Up to $75,000",
+      "duration": "1 year",
+      "eligibility": "Early-career investigators (postdocs, clinical fellows, junior faculty) working under a qualified myeloma research mentor.",
+      "deadlines": [
+        { "label": "Application", "date": null, "note": "Typically late June (past cycles ~June 24), via ProposalCentral. Confirm the current deadline on the MMRF grants page." }
+      ],
+      "typical_timing": "Annual cycle; applications typically due in June.",
+      "url": "https://themmrf.org/for-researchers/grants-funding-opportunities/"
+    },
+    {
+      "name": "MMRF Scholars Program",
+      "org": "Multiple Myeloma Research Foundation (MMRF)",
+      "category": "Disease-specific",
+      "focus": "Multiple myeloma (clinical, translational, or basic)",
+      "stage": "Early-career (≤ Assistant Professor)",
+      "amount": "Up to $400,000 ($100,000/yr)",
+      "duration": "4 years",
+      "eligibility": "PhD/MD (or defending PhD within 12 months of applying); not above Assistant Professor at time of award. Career-development award; applicants with meaningful connections to communities most impacted by myeloma encouraged.",
+      "deadlines": [
+        { "label": "Application", "date": "2026-06-30", "note": "Supported by Pfizer and Bristol Myers Squibb — verify on the MMRF grants page." }
+      ],
+      "typical_timing": "Applications typically due end of June.",
+      "url": "https://themmrf.org/for-researchers/grants-funding-opportunities/"
+    },
+    {
       "name": "Prostate Cancer Foundation Young Investigator Award",
       "org": "Prostate Cancer Foundation (PCF)",
       "category": "Disease-specific",
