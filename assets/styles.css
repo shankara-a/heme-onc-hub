@@ -29,16 +29,18 @@ a { color: var(--accent); }
 
 /* ---------- header ---------- */
 .site-header {
-  display: flex; align-items: center; justify-content: space-between;
-  gap: 16px; flex-wrap: wrap;
-  padding: 18px 28px;
   background: linear-gradient(100deg, var(--primary-dark), var(--primary));
   color: #fff;
 }
-.brand { display: flex; align-items: center; gap: 14px; }
-.logo { font-size: 30px; }
+.header-inner {
+  max-width: 1180px; margin: 0 auto; padding: 18px;
+  display: flex; align-items: flex-start; gap: 14px;
+}
+.header-text { display: flex; flex-direction: column; }
+.logo { font-size: 30px; line-height: 1.1; }
 .site-header h1 { margin: 0; font-size: 22px; letter-spacing: .2px; }
 .tagline { margin: 2px 0 0; font-size: 13px; opacity: .85; }
+#updated-badge { align-self: flex-start; margin-top: 9px; }
 .badge {
   display: inline-block; background: rgba(255,255,255,.16);
   border: 1px solid rgba(255,255,255,.3);
@@ -48,9 +50,12 @@ a { color: var(--accent); }
 
 /* ---------- tabs ---------- */
 .tabs {
-  display: flex; gap: 2px; flex-wrap: wrap;
-  padding: 0 18px; background: var(--surface);
+  background: var(--surface);
   border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 500;
+}
+.tabs-inner {
+  max-width: 1180px; margin: 0 auto; padding: 0 18px;
+  display: flex; gap: 2px; flex-wrap: wrap;
 }
 .tab {
   appearance: none; border: none; background: none; cursor: pointer;

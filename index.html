@@ -17,26 +17,26 @@
 <body>
 
 <header class="site-header">
-  <div class="brand">
+  <div class="header-inner">
     <span class="logo" aria-hidden="true">🩸</span>
-    <div>
+    <div class="header-text">
       <h1>Heme/Onc K-Hub</h1>
       <p class="tagline">NIH K-award tracker &amp; conference deadlines for hematology-oncology fellows</p>
+      <span id="updated-badge" class="badge">Loading data…</span>
     </div>
-  </div>
-  <div class="header-meta">
-    <span id="updated-badge" class="badge">Loading data…</span>
   </div>
 </header>
 
 <nav class="tabs" id="tabs" role="tablist">
-  <button class="tab active" data-tab="overview" role="tab">Overview</button>
-  <button class="tab" data-tab="grants" role="tab">Grant Library</button>
-  <button class="tab" data-tab="funding" role="tab">Funding</button>
-  <button class="tab" data-tab="playbook" role="tab">Fellow's Playbook</button>
-  <button class="tab" data-tab="conferences" role="tab">Conference Deadlines</button>
-  <button class="tab" data-tab="map" role="tab">Institutions &amp; Map</button>
-  <button class="tab" data-tab="methodology" role="tab">Methodology</button>
+  <div class="tabs-inner">
+    <button class="tab active" data-tab="overview" role="tab">Overview</button>
+    <button class="tab" data-tab="grants" role="tab">Grant Library</button>
+    <button class="tab" data-tab="funding" role="tab">Funding</button>
+    <button class="tab" data-tab="conferences" role="tab">Conferences</button>
+    <button class="tab" data-tab="map" role="tab">Institutions &amp; Map</button>
+    <button class="tab" data-tab="playbook" role="tab">Fellow's Playbook</button>
+    <button class="tab" data-tab="methodology" role="tab">Methodology</button>
+  </div>
 </nav>
 
 <main>
@@ -59,7 +59,7 @@
         </div>
         <div class="segmented small" id="dl-type-toggle" role="tablist" aria-label="Deadline type">
           <button class="seg active" data-dl-type="all">All</button>
-          <button class="seg" data-dl-type="conference">Conf</button>
+          <button class="seg" data-dl-type="conference">Conferences</button>
           <button class="seg" data-dl-type="funding">Funding</button>
           <button class="seg" data-dl-type="nih">NIH&nbsp;K</button>
         </div>
