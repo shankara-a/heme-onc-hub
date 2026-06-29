@@ -3458,25 +3458,6 @@
   "url": "https://reporter.nih.gov/project-details/11114614"
  },
  {
-  "core_project_num": "K38CA304069",
-  "appl_id": 11213589,
-  "title": "Predictive Markers of Response to and Treatment Effects of Motixafortide, Cemiplimab, Gemcitabine and Nab-Paclitaxel in Treatment Naïve Metastatic Pancreatic Cancer",
-  "pi": "May, Michael Stevenson",
-  "org": "COLUMBIA UNIVERSITY HEALTH SCIENCES",
-  "city": "New York",
-  "state": "NY",
-  "country": "UNITED STATES",
-  "mechanism": "K38",
-  "subarea": "Immuno-oncology",
-  "research_type": "Patient-oriented / Clinical",
-  "amount": 109080,
-  "fiscal_year": 2025,
-  "start_year": 2025,
-  "ic": "NCI",
-  "po": "Mark W Damico",
-  "url": "https://reporter.nih.gov/project-details/11213589"
- },
- {
   "core_project_num": "K08CA263304",
   "appl_id": 11141135,
   "title": "Defining the mechanism of inositol 1,4,5-triphosphate receptor-mediated metastatic liver colonization in colorectal cancer",
@@ -6477,6 +6458,25 @@
   "ic": "NCI",
   "po": "Corinne A Boulanger-Espeut",
   "url": "https://reporter.nih.gov/project-details/11141122"
+ },
+ {
+  "core_project_num": "K38CA304069",
+  "appl_id": 11416235,
+  "title": "Predictive Markers of Response to and Treatment Effects of Motixafortide, Cemiplimab, Gemcitabine and Nab-Paclitaxel in Treatment-Naïve Metastatic Pancreatic Cancer",
+  "pi": "May, Michael Stevenson",
+  "org": "SLOAN-KETTERING INST CAN RESEARCH",
+  "city": "New York",
+  "state": "NY",
+  "country": "UNITED STATES",
+  "mechanism": "K38",
+  "subarea": "Immuno-oncology",
+  "research_type": "Patient-oriented / Clinical",
+  "amount": 109079,
+  "fiscal_year": 2025,
+  "start_year": 2025,
+  "ic": "NCI",
+  "po": "Mark W Damico",
+  "url": "https://reporter.nih.gov/project-details/11416235"
  },
  {
   "core_project_num": "K08CA266740",
@@ -9481,6 +9481,25 @@
   "url": "https://reporter.nih.gov/project-details/11162359"
  },
  {
+  "core_project_num": "K08HL166969",
+  "appl_id": 11124235,
+  "title": "Myelofibrosis impacts the hematopoietic niche through TNF-a",
+  "pi": "Oetjen, Karolyn Ann",
+  "org": "WASHINGTON UNIVERSITY",
+  "city": "Saint Louis",
+  "state": "MO",
+  "country": "UNITED STATES",
+  "mechanism": "K08",
+  "subarea": "Leukemia / MDS / MPN",
+  "research_type": "Patient-oriented / Clinical",
+  "amount": 170948,
+  "fiscal_year": 2025,
+  "start_year": 2024,
+  "ic": "NHLBI",
+  "po": "Nitin  Agrawal",
+  "url": "https://reporter.nih.gov/project-details/11124235"
+ },
+ {
   "core_project_num": "K99CA296777",
   "appl_id": 11229141,
   "title": "Impact of Clonal Hematopoiesis on Solid Tumor Development and Response to Therapy",
@@ -9498,6 +9517,25 @@
   "ic": "NCI",
   "po": "Sonia B Jakowlew",
   "url": "https://reporter.nih.gov/project-details/11229141"
+ },
+ {
+  "core_project_num": "K08HL168155",
+  "appl_id": 11193799,
+  "title": "Optimizing hematopoietic stem cell transplantation to treat non-malignant disease",
+  "pi": "Persaud, Stephen Phillip",
+  "org": "WASHINGTON UNIVERSITY",
+  "city": "Saint Louis",
+  "state": "MO",
+  "country": "UNITED STATES",
+  "mechanism": "K08",
+  "subarea": "Cellular therapy / BMT",
+  "research_type": "Laboratory / Translational",
+  "amount": 169156,
+  "fiscal_year": 2025,
+  "start_year": 2024,
+  "ic": "NHLBI",
+  "po": "Ilana Grace Goldberg",
+  "url": "https://reporter.nih.gov/project-details/11193799"
  },
  {
   "core_project_num": "K08CA277009",

@@ -1,21 +1,24 @@
 {
- "updated_at": "2026-06-22 22:45 UTC",
- "total_awards": 539,
- "total_funding": 116708677,
- "new_since_last": [],
- "new_count": 0,
+ "updated_at": "2026-06-29 12:32 UTC",
+ "total_awards": 541,
+ "total_funding": 117048780,
+ "new_since_last": [
+  "K08HL166969",
+  "K08HL168155"
+ ],
+ "new_count": 2,
  "by_subarea": {
   "Solid tumor": 166,
   "Other / Multi-cancer": 141,
   "Immuno-oncology": 68,
   "Benign hematology": 64,
-  "Leukemia / MDS / MPN": 55,
-  "Cellular therapy / BMT": 30,
+  "Leukemia / MDS / MPN": 56,
+  "Cellular therapy / BMT": 31,
   "Lymphoma": 10,
   "Myeloma / Plasma cell": 5
  },
  "by_mechanism": {
-  "K08": 260,
+  "K08": 262,
   "K99": 106,
   "K01": 52,
   "K22": 44,
@@ -26,8 +29,8 @@
   "K43": 1
  },
  "by_research_type": {
-  "Laboratory / Translational": 378,
-  "Patient-oriented / Clinical": 161
+  "Laboratory / Translational": 379,
+  "Patient-oriented / Clinical": 162
  },
  "by_state": {
   "NY": 73,
@@ -38,10 +41,10 @@
   "PA": 21,
   "MD": 21,
   "OH": 18,
+  "MO": 18,
   "MI": 18,
   "IL": 17,
   "CT": 17,
-  "MO": 16,
   "TN": 15,
   "WA": 12,
   "AL": 11,
@@ -68,7 +71,7 @@
  },
  "by_fiscal_year": {
   "2024": 21,
-  "2025": 365,
+  "2025": 367,
   "2026": 153
  },
  "by_start_year": {
@@ -89,19 +92,19 @@
   "2021": 59,
   "2022": 74,
   "2023": 91,
-  "2024": 108,
+  "2024": 110,
   "2025": 136,
   "2026": 42
  },
  "top_orgs": {
-  "SLOAN-KETTERING INST CAN RESEARCH": 30,
+  "SLOAN-KETTERING INST CAN RESEARCH": 31,
   "DANA-FARBER CANCER INST": 25,
   "MASSACHUSETTS GENERAL HOSPITAL": 23,
   "JOHNS HOPKINS UNIVERSITY": 18,
   "UNIVERSITY OF TX MD ANDERSON CAN CTR": 18,
   "STANFORD UNIVERSITY": 17,
+  "WASHINGTON UNIVERSITY": 17,
   "YALE UNIVERSITY": 16,
-  "WASHINGTON UNIVERSITY": 15,
   "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 14,
   "DUKE UNIVERSITY": 13,
   "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO": 13,
@@ -110,9 +113,9 @@
   "UNIVERSITY OF ALABAMA AT BIRMINGHAM": 11,
   "ST. JUDE CHILDREN'S RESEARCH HOSPITAL": 10,
   "OHIO STATE UNIVERSITY": 10,
-  "COLUMBIA UNIVERSITY HEALTH SCIENCES": 9,
   "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI": 9,
   "UNIVERSITY OF COLORADO DENVER": 9,
+  "COLUMBIA UNIVERSITY HEALTH SCIENCES": 8,
   "BRIGHAM AND WOMEN'S HOSPITAL": 7
  },
  "activity_codes": [
