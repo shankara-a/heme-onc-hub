@@ -190,6 +190,25 @@
   "url": "https://reporter.nih.gov/project-details/11138232"
  },
  {
+  "core_project_num": "K08CA304491",
+  "appl_id": 11371559,
+  "title": "Muscle health and impaired glucose tolerance in adolescent and young adult hematopoietic cell transplantation survivors",
+  "pi": "Bhandari, Rusha ",
+  "org": "BECKMAN RESEARCH INSTITUTE/CITY OF HOPE",
+  "city": "Duarte",
+  "state": "CA",
+  "country": "UNITED STATES",
+  "mechanism": "K08",
+  "subarea": "Cellular therapy / BMT",
+  "research_type": "Laboratory / Translational",
+  "amount": 280931,
+  "fiscal_year": 2026,
+  "start_year": 2026,
+  "ic": "NCI",
+  "po": "Susan E Lim",
+  "url": "https://reporter.nih.gov/project-details/11371559"
+ },
+ {
   "core_project_num": "K08CA267307",
   "appl_id": 11348936,
   "title": "Determinants of Resistance to Engineered T-cell Therapies Targeting CD19 in Lymphoma",
@@ -324,7 +343,7 @@
  },
  {
   "core_project_num": "K01HL168214",
-  "appl_id": 11399032,
+  "appl_id": 11600381,
   "title": "Pilot-testing and Implementation of an Integrated Sickle-cell Screening and Violence Prevention Program in Antenatal Care Settings in India (PIVOT)",
   "pi": "Halim, Nafisa ",
   "org": "BOSTON UNIVERSITY MEDICAL CAMPUS",
@@ -334,12 +353,12 @@
   "mechanism": "K01",
   "subarea": "Benign hematology",
   "research_type": "Patient-oriented / Clinical",
-  "amount": 149537,
+  "amount": 16740,
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NHLBI",
   "po": "Daniel J Frank",
-  "url": "https://reporter.nih.gov/project-details/11399032"
+  "url": "https://reporter.nih.gov/project-details/11600381"
  },
  {
   "core_project_num": "K23HL166686",
@@ -399,6 +418,25 @@
   "url": "https://reporter.nih.gov/project-details/11333033"
  },
  {
+  "core_project_num": "K01CA312882",
+  "appl_id": 11350562,
+  "title": "Promoting Resilience for Oncologic Surgery and Pain to Enhance Recovery (PROSPER): A patient-centered study of a perioperative intervention to prevent chronic pain after gynecologic surgery",
+  "pi": "Wilson, Jenna M",
+  "org": "BRIGHAM AND WOMEN'S HOSPITAL",
+  "city": "Boston",
+  "state": "MA",
+  "country": "UNITED STATES",
+  "mechanism": "K01",
+  "subarea": "Other / Multi-cancer",
+  "research_type": "Patient-oriented / Clinical",
+  "amount": 199694,
+  "fiscal_year": 2026,
+  "start_year": 2026,
+  "ic": "NCI",
+  "po": "Sergey  Radaev",
+  "url": "https://reporter.nih.gov/project-details/11350562"
+ },
+ {
   "core_project_num": "K99CA296755",
   "appl_id": 11262291,
   "title": "Inflammation and Hepatocellular Carcinoma: A Multiomics Approach to Improve Early Detection, Causal Inference, and Lifestyle Based Prevention",
@@ -454,6 +492,25 @@
   "ic": "NCI",
   "po": "Mark W Damico",
   "url": "https://reporter.nih.gov/project-details/11365803"
+ },
+ {
+  "core_project_num": "K08CA304485",
+  "appl_id": 11371931,
+  "title": "Novel mechanisms of acute myeloid leukemia resistance to cell therapy",
+  "pi": "Bhagwat, Anand ",
+  "org": "CHILDREN'S HOSP OF PHILADELPHIA",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "UNITED STATES",
+  "mechanism": "K08",
+  "subarea": "Leukemia / MDS / MPN",
+  "research_type": "Laboratory / Translational",
+  "amount": 263656,
+  "fiscal_year": 2026,
+  "start_year": 2026,
+  "ic": "NCI",
+  "po": "Yansong  Bian",
+  "url": "https://reporter.nih.gov/project-details/11371931"
  },
  {
   "core_project_num": "K08CA286762",
@@ -1159,6 +1216,25 @@
   "url": "https://reporter.nih.gov/project-details/11395342"
  },
  {
+  "core_project_num": "K23HL189018",
+  "appl_id": 11435695,
+  "title": "Sickle Cell Disease Functional Assessment Validation and SickleFit Exercise and Nutrition Pilot Intervention",
+  "pi": "Oyedeji, Charity Ibilola",
+  "org": "DUKE UNIVERSITY",
+  "city": "Durham",
+  "state": "NC",
+  "country": "UNITED STATES",
+  "mechanism": "K23",
+  "subarea": "Benign hematology",
+  "research_type": "Patient-oriented / Clinical",
+  "amount": 156708,
+  "fiscal_year": 2026,
+  "start_year": 2026,
+  "ic": "NHLBI",
+  "po": "Madelaine Balois Ouellette",
+  "url": "https://reporter.nih.gov/project-details/11435695"
+ },
+ {
   "core_project_num": "K99CA307632",
   "appl_id": 11282636,
   "title": "Ultrasensitive sequencing to detect local and circulating tumor burden as a driver of recurrence in patients with resectable pancreas cancer",
@@ -1347,6 +1423,25 @@
   "ic": "NCI",
   "po": "Michael K Schmidt",
   "url": "https://reporter.nih.gov/project-details/11371017"
+ },
+ {
+  "core_project_num": "K08HL167161",
+  "appl_id": 11377412,
+  "title": "Propagation of graft vs. host disease through CD4+ T-cell cognate recognition of gastrointestinal microbiota",
+  "pi": "Yeh, Albert Chia-Chun",
+  "org": "FRED HUTCHINSON CANCER CENTER",
+  "city": "Seattle",
+  "state": "WA",
+  "country": "UNITED STATES",
+  "mechanism": "K08",
+  "subarea": "Cellular therapy / BMT",
+  "research_type": "Laboratory / Translational",
+  "amount": 162432,
+  "fiscal_year": 2026,
+  "start_year": 2023,
+  "ic": "NHLBI",
+  "po": "Lisbeth A Welniak",
+  "url": "https://reporter.nih.gov/project-details/11377412"
  },
  {
   "core_project_num": "K08CA270402",
@@ -2563,6 +2658,25 @@
   "ic": "NHLBI",
   "po": "Idalia Montano Yabe",
   "url": "https://reporter.nih.gov/project-details/11365776"
+ },
+ {
+  "core_project_num": "K08CA277016",
+  "appl_id": 11357654,
+  "title": "Characterizing the immune infiltrate in muscle-invasive urothelial carcinoma",
+  "pi": "Collier, Katharine A.",
+  "org": "OHIO STATE UNIVERSITY",
+  "city": "Columbus",
+  "state": "OH",
+  "country": "UNITED STATES",
+  "mechanism": "K08",
+  "subarea": "Solid tumor",
+  "research_type": "Laboratory / Translational",
+  "amount": 273561,
+  "fiscal_year": 2026,
+  "start_year": 2023,
+  "ic": "NCI",
+  "po": "Yansong  Bian",
+  "url": "https://reporter.nih.gov/project-details/11357654"
  },
  {
   "core_project_num": "K08CA279653",
@@ -6287,6 +6401,25 @@
   "ic": "NHLBI",
   "po": "Seung Kyoon  Woo",
   "url": "https://reporter.nih.gov/project-details/11264633"
+ },
+ {
+  "core_project_num": "K01CA304500",
+  "appl_id": 11452423,
+  "title": "Colon Health Champions: A Peer-Led Approach to Enhancing Colorectal Cancer Screening in Low-Income Settings",
+  "pi": "Miller, Carrie A.",
+  "org": "VIRGINIA COMMONWEALTH UNIVERSITY",
+  "city": "Richmond",
+  "state": "VA",
+  "country": "UNITED STATES",
+  "mechanism": "K01",
+  "subarea": "Solid tumor",
+  "research_type": "Laboratory / Translational",
+  "amount": 203148,
+  "fiscal_year": 2026,
+  "start_year": 2026,
+  "ic": "NCI",
+  "po": "Sergey  Radaev",
+  "url": "https://reporter.nih.gov/project-details/11452423"
  },
  {
   "core_project_num": "K12CA300624",
