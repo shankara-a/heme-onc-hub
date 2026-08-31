@@ -836,6 +836,25 @@
   "url": "https://reporter.nih.gov/project-details/11348161"
  },
  {
+  "core_project_num": "K99CA315599",
+  "appl_id": 11438326,
+  "title": "Dissecting Oxygen Sensing and PTEN Loss in FDG/Fluciclovine Uptake as Markers of PSMA Radioligand Therapy Resistance",
+  "pi": "Bakht, Martin ",
+  "org": "DANA-FARBER CANCER INST",
+  "city": "Boston",
+  "state": "MA",
+  "country": "UNITED STATES",
+  "mechanism": "K99",
+  "subarea": "Solid tumor",
+  "research_type": "Laboratory / Translational",
+  "amount": 170639,
+  "fiscal_year": 2026,
+  "start_year": 2026,
+  "ic": "NCI",
+  "po": "Michael K Schmidt",
+  "url": "https://reporter.nih.gov/project-details/11438326"
+ },
+ {
   "core_project_num": "K99CA307630",
   "appl_id": 11282712,
   "title": "Establishing Ethical Standards for Informed Consent and Counseling for Multi-Cancer Early Detection Testing",
@@ -2451,6 +2470,25 @@
   "url": "https://reporter.nih.gov/project-details/11299389"
  },
  {
+  "core_project_num": "K24HL180995",
+  "appl_id": 11400780,
+  "title": "Patient-Oriented Research Mentoring for the Investigation of Acute and Chronic Sickle Cell Disease Pain",
+  "pi": "Brandow, Amanda M",
+  "org": "MEDICAL COLLEGE OF WISCONSIN",
+  "city": "Milwaukee",
+  "state": "WI",
+  "country": "UNITED STATES",
+  "mechanism": "K24",
+  "subarea": "Benign hematology",
+  "research_type": "Patient-oriented / Clinical",
+  "amount": 120334,
+  "fiscal_year": 2026,
+  "start_year": 2025,
+  "ic": "NHLBI",
+  "po": "Lisbeth A Welniak",
+  "url": "https://reporter.nih.gov/project-details/11400780"
+ },
+ {
   "core_project_num": "K08CA276706",
   "appl_id": 11413876,
   "title": "Understanding the Influence of Hormone Therapy on Breast Cancer Risk and Screening through Mixed Methods",
@@ -2927,7 +2965,7 @@
  },
  {
   "core_project_num": "K01CA301031",
-  "appl_id": 11301976,
+  "appl_id": 11537043,
   "title": "Implementing breast cancer early detection measures in primary healthcare facilities in Botswana",
   "pi": "Friebel-Klingner, Tara Marie",
   "org": "RUTGERS BIOMEDICAL AND HEALTH SCIENCES",
@@ -2937,12 +2975,12 @@
   "mechanism": "K01",
   "subarea": "Solid tumor",
   "research_type": "Patient-oriented / Clinical",
-  "amount": 138500,
+  "amount": 26431,
   "fiscal_year": 2026,
   "start_year": 2026,
   "ic": "NCI",
   "po": "Sergey  Radaev",
-  "url": "https://reporter.nih.gov/project-details/11301976"
+  "url": "https://reporter.nih.gov/project-details/11537043"
  },
  {
   "core_project_num": "K01CA281062",
@@ -3364,7 +3402,7 @@
  },
  {
   "core_project_num": "K08CA263299",
-  "appl_id": 11247074,
+  "appl_id": 11509072,
   "title": "A multi-faceted intervention to promote breast cancer hormone receptor testing in Tanzania",
   "pi": "Ng, Dianna L.",
   "org": "SLOAN-KETTERING INST CAN RESEARCH",
@@ -3374,12 +3412,12 @@
   "mechanism": "K08",
   "subarea": "Solid tumor",
   "research_type": "Patient-oriented / Clinical",
-  "amount": 206056,
+  "amount": 45360,
   "fiscal_year": 2026,
   "start_year": 2021,
   "ic": "NCI",
   "po": "Yansong  Bian",
-  "url": "https://reporter.nih.gov/project-details/11247074"
+  "url": "https://reporter.nih.gov/project-details/11509072"
  },
  {
   "core_project_num": "K99CA297013",
@@ -5453,6 +5491,25 @@
   "url": "https://reporter.nih.gov/project-details/11435865"
  },
  {
+  "core_project_num": "K24HL160527",
+  "appl_id": 11377978,
+  "title": "Patient-oriented research mentoring in access and adherence to anticoagulation for atrial fibrillation",
+  "pi": "Magnani, Jared W.",
+  "org": "UNIVERSITY OF PITTSBURGH AT PITTSBURGH",
+  "city": "Pittsburgh",
+  "state": "PA",
+  "country": "UNITED STATES",
+  "mechanism": "K24",
+  "subarea": "Benign hematology",
+  "research_type": "Patient-oriented / Clinical",
+  "amount": 119953,
+  "fiscal_year": 2026,
+  "start_year": 2022,
+  "ic": "NHLBI",
+  "po": "Ayesha Saeed Siddiqui",
+  "url": "https://reporter.nih.gov/project-details/11377978"
+ },
+ {
   "core_project_num": "K08HL155488",
   "appl_id": 11257312,
   "title": "Mechanisms of platelet stimulation in hemolysis",
@@ -6325,6 +6382,25 @@
   "ic": "NCI",
   "po": "Sonia B Jakowlew",
   "url": "https://reporter.nih.gov/project-details/11326210"
+ },
+ {
+  "core_project_num": "K12CA090625",
+  "appl_id": 11371143,
+  "title": "Vanderbilt Clinical Oncology Research Career Development Award",
+  "pi": "Friedman, Debra L.",
+  "org": "VANDERBILT UNIVERSITY MEDICAL CENTER",
+  "city": "Nashville",
+  "state": "TN",
+  "country": "UNITED STATES",
+  "mechanism": "K12",
+  "subarea": "Other / Multi-cancer",
+  "research_type": "Patient-oriented / Clinical",
+  "amount": 931584,
+  "fiscal_year": 2026,
+  "start_year": 2001,
+  "ic": "NCI",
+  "po": "Mark W Damico",
+  "url": "https://reporter.nih.gov/project-details/11371143"
  },
  {
   "core_project_num": "K99CA308260",
@@ -9515,7 +9591,7 @@
   "fiscal_year": 2025,
   "start_year": 2024,
   "ic": "NHLBI",
-  "po": "Fernando Pereira Bruno",
+  "po": "Makeda J Williams",
   "url": "https://reporter.nih.gov/project-details/11193856"
  },
  {
@@ -10125,6 +10201,25 @@
   "ic": "NCI",
   "po": "Anil  Wali",
   "url": "https://reporter.nih.gov/project-details/10918068"
+ },
+ {
+  "core_project_num": "K08CA245206",
+  "appl_id": 10871844,
+  "title": "Exploring the combinatorial efficacy between chemotherapy and T cell checkpoint inhibition and the role of cellular senescence",
+  "pi": "Bott, Matthew J",
+  "org": "SLOAN-KETTERING INST CAN RESEARCH",
+  "city": "New York",
+  "state": "NY",
+  "country": "UNITED STATES",
+  "mechanism": "K08",
+  "subarea": "Solid tumor",
+  "research_type": "Laboratory / Translational",
+  "amount": 260099,
+  "fiscal_year": 2024,
+  "start_year": 2020,
+  "ic": "NCI",
+  "po": "Sergey  Radaev",
+  "url": "https://reporter.nih.gov/project-details/10871844"
  },
  {
   "core_project_num": "K99CA277562",
