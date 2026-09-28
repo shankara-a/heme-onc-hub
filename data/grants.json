@@ -262,7 +262,7 @@
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11395317"
  },
  {
@@ -741,6 +741,25 @@
   "url": "https://reporter.nih.gov/project-details/11245729"
  },
  {
+  "core_project_num": "K99CA300639",
+  "appl_id": 11357435,
+  "title": "Developing GFRA2 as an optimal immunotherapeutic target for neuroblastoma and Ewing sarcoma",
+  "pi": "Hamilton, Amber ",
+  "org": "CHILDREN'S HOSP OF PHILADELPHIA",
+  "city": "Philadelphia",
+  "state": "PA",
+  "country": "UNITED STATES",
+  "mechanism": "K99",
+  "subarea": "Immuno-oncology",
+  "research_type": "Laboratory / Translational",
+  "amount": 109364,
+  "fiscal_year": 2026,
+  "start_year": 2026,
+  "ic": "NCI",
+  "po": "Michael K Schmidt",
+  "url": "https://reporter.nih.gov/project-details/11357435"
+ },
+ {
   "core_project_num": "K08CA277013",
   "appl_id": 11285311,
   "title": "Optimizing outcomes for children and young adults with relapse of B-cell acute lymphoblastic leukemia after CD19-targeted chimeric antigen receptor T-cell therapy",
@@ -1174,7 +1193,7 @@
   "fiscal_year": 2026,
   "start_year": 2022,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11386695"
  },
  {
@@ -1915,7 +1934,7 @@
   "fiscal_year": 2026,
   "start_year": 2022,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11398081"
  },
  {
@@ -2523,7 +2542,7 @@
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11391198"
  },
  {
@@ -3036,7 +3055,7 @@
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11399873"
  },
  {
@@ -3131,7 +3150,7 @@
   "fiscal_year": 2026,
   "start_year": 2023,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11249621"
  },
  {
@@ -3929,7 +3948,7 @@
   "fiscal_year": 2026,
   "start_year": 2023,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11624054"
  },
  {
@@ -3950,6 +3969,25 @@
   "ic": "NCI",
   "po": "Corinne A Boulanger-Espeut",
   "url": "https://reporter.nih.gov/project-details/11369623"
+ },
+ {
+  "core_project_num": "K99CA316633",
+  "appl_id": 11437647,
+  "title": "Defining how mitochondrial metabolites reprogram cellular metabolism to control tumor growth",
+  "pi": "Nengroo, Mushtaq ",
+  "org": "NORTHWESTERN UNIVERSITY",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "UNITED STATES",
+  "mechanism": "K99",
+  "subarea": "Solid tumor",
+  "research_type": "Laboratory / Translational",
+  "amount": 99022,
+  "fiscal_year": 2026,
+  "start_year": 2026,
+  "ic": "NCI",
+  "po": "Sonia B Jakowlew",
+  "url": "https://reporter.nih.gov/project-details/11437647"
  },
  {
   "core_project_num": "K01CA296781",
@@ -4271,7 +4309,7 @@
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11389358"
  },
  {
@@ -4651,7 +4689,7 @@
   "fiscal_year": 2026,
   "start_year": 2023,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11381070"
  },
  {
@@ -5036,7 +5074,7 @@
  },
  {
   "core_project_num": "K08CA263299",
-  "appl_id": 11509072,
+  "appl_id": 11247074,
   "title": "A multi-faceted intervention to promote breast cancer hormone receptor testing in Tanzania",
   "pi": "Ng, Dianna L.",
   "org": "SLOAN-KETTERING INST CAN RESEARCH",
@@ -5046,12 +5084,12 @@
   "mechanism": "K08",
   "subarea": "Solid tumor",
   "research_type": "Patient-oriented / Clinical",
-  "amount": 45360,
+  "amount": 206056,
   "fiscal_year": 2026,
   "start_year": 2021,
   "ic": "NCI",
   "po": "Yansong  Bian",
-  "url": "https://reporter.nih.gov/project-details/11509072"
+  "url": "https://reporter.nih.gov/project-details/11247074"
  },
  {
   "core_project_num": "K08CA266740",
@@ -5069,7 +5107,7 @@
   "fiscal_year": 2026,
   "start_year": 2022,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11385001"
  },
  {
@@ -5658,7 +5696,7 @@
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11396251"
  },
  {
@@ -6000,7 +6038,7 @@
   "fiscal_year": 2026,
   "start_year": 2023,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11395579"
  },
  {
@@ -6342,7 +6380,7 @@
   "fiscal_year": 2026,
   "start_year": 2023,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11382109"
  },
  {
@@ -6380,7 +6418,7 @@
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11140375"
  },
  {
@@ -7501,7 +7539,7 @@
   "fiscal_year": 2026,
   "start_year": 2022,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11417235"
  },
  {
@@ -8014,7 +8052,7 @@
   "fiscal_year": 2026,
   "start_year": 2023,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11417149"
  },
  {
@@ -8527,7 +8565,7 @@
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11384644"
  },
  {
@@ -9002,7 +9040,7 @@
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NCI",
-  "po": "Tiffany A Wallace",
+  "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11379963"
  },
  {
@@ -10241,6 +10279,25 @@
   "url": "https://reporter.nih.gov/project-details/11390952"
  },
  {
+  "core_project_num": "K99CA307322",
+  "appl_id": 11282208,
+  "title": "Developing and Piloting a Multilevel Intervention to Address Nutritional Needs in the Outpatient Oncology Setting",
+  "pi": "Puklin, Leah ",
+  "org": "YALE UNIVERSITY",
+  "city": "New Haven",
+  "state": "CT",
+  "country": "UNITED STATES",
+  "mechanism": "K99",
+  "subarea": "Solid tumor",
+  "research_type": "Patient-oriented / Clinical",
+  "amount": 168290,
+  "fiscal_year": 2026,
+  "start_year": 2026,
+  "ic": "NCI",
+  "po": "Sergey  Radaev",
+  "url": "https://reporter.nih.gov/project-details/11282208"
+ },
+ {
   "core_project_num": "K08CA286835",
   "appl_id": 11381211,
   "title": "Development of a novel survey to screen for chemotherapy-induced peripheral neuropathy in young children",
@@ -10942,6 +10999,25 @@
   "ic": "NCI",
   "po": "Sergey  Radaev",
   "url": "https://reporter.nih.gov/project-details/11215392"
+ },
+ {
+  "core_project_num": "K99CA293168",
+  "appl_id": 11187162,
+  "title": "The Gut Microbial and Dietary Origins of Cancer Treatment-Related CognitiveImpairment",
+  "pi": "Mcleod, Andrew P",
+  "org": "UNIVERSITY OF ILLINOIS AT CHICAGO",
+  "city": "Chicago",
+  "state": "IL",
+  "country": "UNITED STATES",
+  "mechanism": "K99",
+  "subarea": "Solid tumor",
+  "research_type": "Laboratory / Translational",
+  "amount": 150562,
+  "fiscal_year": 2025,
+  "start_year": 2024,
+  "ic": "NCI",
+  "po": "Michael K Schmidt",
+  "url": "https://reporter.nih.gov/project-details/11187162"
  },
  {
   "core_project_num": "K01CA258955",

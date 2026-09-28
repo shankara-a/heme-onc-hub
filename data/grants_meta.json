@@ -1,40 +1,18 @@
 {
- "updated_at": "2026-09-21 16:46 UTC",
- "total_awards": 588,
- "total_funding": 126127693,
+ "updated_at": "2026-09-28 11:10 UTC",
+ "total_awards": 592,
+ "total_funding": 126815627,
  "new_since_last": [
-  "K01CA267967",
-  "K01HL169309",
-  "K01HL183919",
-  "K08CA266937",
-  "K08CA267189",
-  "K08CA273047",
-  "K08CA282374",
-  "K08CA282987",
-  "K08CA297049",
-  "K08CA304354",
-  "K08CA304380",
-  "K08CA308780",
-  "K08CA308840",
-  "K08CA308868",
-  "K08HL163471",
-  "K08HL166969",
-  "K08HL168155",
-  "K08HL175118",
-  "K08HL175130",
-  "K08HL175198",
-  "K12CA133250",
-  "K12CA226330",
-  "K99CA300018",
-  "K99CA315433",
-  "K99CA315451",
-  "K99CA315574"
+  "K99CA293168",
+  "K99CA300639",
+  "K99CA307322",
+  "K99CA316633"
  ],
- "new_count": 26,
+ "new_count": 4,
  "by_subarea": {
-  "Solid tumor": 185,
+  "Solid tumor": 188,
   "Other / Multi-cancer": 146,
-  "Immuno-oncology": 76,
+  "Immuno-oncology": 77,
   "Benign hematology": 69,
   "Leukemia / MDS / MPN": 58,
   "Cellular therapy / BMT": 35,
@@ -43,7 +21,7 @@
  },
  "by_mechanism": {
   "K08": 277,
-  "K99": 134,
+  "K99": 138,
   "K01": 56,
   "K22": 48,
   "K23": 33,
@@ -52,8 +30,8 @@
   "K38": 4
  },
  "by_research_type": {
-  "Laboratory / Translational": 420,
-  "Patient-oriented / Clinical": 168
+  "Laboratory / Translational": 423,
+  "Patient-oriented / Clinical": 169
  },
  "by_state": {
   "MA": 88,
@@ -61,14 +39,14 @@
   "CA": 61,
   "TX": 38,
   "NC": 28,
-  "PA": 26,
-  "CT": 23,
+  "PA": 27,
+  "CT": 24,
   "OH": 22,
   "MI": 22,
   "MD": 19,
+  "IL": 18,
   "TN": 18,
   "MO": 17,
-  "IL": 16,
   "WA": 14,
   "FL": 13,
   "CO": 11,
@@ -97,8 +75,8 @@
  },
  "by_fiscal_year": {
   "2024": 4,
-  "2025": 40,
-  "2026": 544
+  "2025": 41,
+  "2026": 547
  },
  "by_start_year": {
   "1997": 2,
@@ -116,15 +94,15 @@
   "2021": 28,
   "2022": 67,
   "2023": 81,
-  "2024": 100,
+  "2024": 101,
   "2025": 131,
-  "2026": 163
+  "2026": 166
  },
  "top_orgs": {
   "SLOAN-KETTERING INST CAN RESEARCH": 38,
   "DANA-FARBER CANCER INST": 31,
   "MASSACHUSETTS GENERAL HOSPITAL": 24,
-  "YALE UNIVERSITY": 21,
+  "YALE UNIVERSITY": 22,
   "STANFORD UNIVERSITY": 18,
   "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 17,
   "UNIVERSITY OF TX MD ANDERSON CAN CTR": 17,
@@ -139,8 +117,8 @@
   "UNIVERSITY OF COLORADO DENVER": 11,
   "UNIVERSITY OF ALABAMA AT BIRMINGHAM": 10,
   "BRIGHAM AND WOMEN'S HOSPITAL": 9,
-  "UNIVERSITY OF PITTSBURGH AT PITTSBURGH": 9,
-  "CHILDREN'S HOSP OF PHILADELPHIA": 8
+  "CHILDREN'S HOSP OF PHILADELPHIA": 9,
+  "UNIVERSITY OF PITTSBURGH AT PITTSBURGH": 9
  },
  "activity_codes": [
   "K08",
