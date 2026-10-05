@@ -5074,7 +5074,7 @@
  },
  {
   "core_project_num": "K08CA263299",
-  "appl_id": 11247074,
+  "appl_id": 11509072,
   "title": "A multi-faceted intervention to promote breast cancer hormone receptor testing in Tanzania",
   "pi": "Ng, Dianna L.",
   "org": "SLOAN-KETTERING INST CAN RESEARCH",
@@ -5084,12 +5084,12 @@
   "mechanism": "K08",
   "subarea": "Solid tumor",
   "research_type": "Patient-oriented / Clinical",
-  "amount": 206056,
+  "amount": 45360,
   "fiscal_year": 2026,
   "start_year": 2021,
   "ic": "NCI",
   "po": "Yansong  Bian",
-  "url": "https://reporter.nih.gov/project-details/11247074"
+  "url": "https://reporter.nih.gov/project-details/11509072"
  },
  {
   "core_project_num": "K08CA266740",
@@ -11132,25 +11132,6 @@
   "ic": "NCI",
   "po": "Corinne A Boulanger-Espeut",
   "url": "https://reporter.nih.gov/project-details/11045093"
- },
- {
-  "core_project_num": "K08CA255465",
-  "appl_id": 11125827,
-  "title": "Immunomodulatory Effects of Targeting DNA Repair with Novel Temozolomide Combinations in Colorectal Cancer",
-  "pi": "Cecchini, Michael ",
-  "org": "YALE UNIVERSITY",
-  "city": "New Haven",
-  "state": "CT",
-  "country": "UNITED STATES",
-  "mechanism": "K08",
-  "subarea": "Immuno-oncology",
-  "research_type": "Patient-oriented / Clinical",
-  "amount": 260958,
-  "fiscal_year": 2025,
-  "start_year": 2021,
-  "ic": "NCI",
-  "po": "Yansong  Bian",
-  "url": "https://reporter.nih.gov/project-details/11125827"
  },
  {
   "core_project_num": "K08HL150246",

@@ -1,18 +1,13 @@
 {
- "updated_at": "2026-09-28 11:10 UTC",
- "total_awards": 592,
- "total_funding": 126815627,
- "new_since_last": [
-  "K99CA293168",
-  "K99CA300639",
-  "K99CA307322",
-  "K99CA316633"
- ],
- "new_count": 4,
+ "updated_at": "2026-10-05 11:10 UTC",
+ "total_awards": 591,
+ "total_funding": 126393973,
+ "new_since_last": [],
+ "new_count": 0,
  "by_subarea": {
   "Solid tumor": 188,
   "Other / Multi-cancer": 146,
-  "Immuno-oncology": 77,
+  "Immuno-oncology": 76,
   "Benign hematology": 69,
   "Leukemia / MDS / MPN": 58,
   "Cellular therapy / BMT": 35,
@@ -20,7 +15,7 @@
   "Myeloma / Plasma cell": 5
  },
  "by_mechanism": {
-  "K08": 277,
+  "K08": 276,
   "K99": 138,
   "K01": 56,
   "K22": 48,
@@ -31,7 +26,7 @@
  },
  "by_research_type": {
   "Laboratory / Translational": 423,
-  "Patient-oriented / Clinical": 169
+  "Patient-oriented / Clinical": 168
  },
  "by_state": {
   "MA": 88,
@@ -40,7 +35,7 @@
   "TX": 38,
   "NC": 28,
   "PA": 27,
-  "CT": 24,
+  "CT": 23,
   "OH": 22,
   "MI": 22,
   "MD": 19,
@@ -75,7 +70,7 @@
  },
  "by_fiscal_year": {
   "2024": 4,
-  "2025": 41,
+  "2025": 40,
   "2026": 547
  },
  "by_start_year": {
@@ -91,7 +86,7 @@
   "2018": 2,
   "2019": 1,
   "2020": 2,
-  "2021": 28,
+  "2021": 27,
   "2022": 67,
   "2023": 81,
   "2024": 101,
@@ -102,7 +97,7 @@
   "SLOAN-KETTERING INST CAN RESEARCH": 38,
   "DANA-FARBER CANCER INST": 31,
   "MASSACHUSETTS GENERAL HOSPITAL": 24,
-  "YALE UNIVERSITY": 22,
+  "YALE UNIVERSITY": 21,
   "STANFORD UNIVERSITY": 18,
   "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 17,
   "UNIVERSITY OF TX MD ANDERSON CAN CTR": 17,
