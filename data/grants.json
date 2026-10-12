@@ -5074,7 +5074,7 @@
  },
  {
   "core_project_num": "K08CA263299",
-  "appl_id": 11509072,
+  "appl_id": 11247074,
   "title": "A multi-faceted intervention to promote breast cancer hormone receptor testing in Tanzania",
   "pi": "Ng, Dianna L.",
   "org": "SLOAN-KETTERING INST CAN RESEARCH",
@@ -5084,12 +5084,12 @@
   "mechanism": "K08",
   "subarea": "Solid tumor",
   "research_type": "Patient-oriented / Clinical",
-  "amount": 45360,
+  "amount": 206056,
   "fiscal_year": 2026,
   "start_year": 2021,
   "ic": "NCI",
   "po": "Yansong  Bian",
-  "url": "https://reporter.nih.gov/project-details/11509072"
+  "url": "https://reporter.nih.gov/project-details/11247074"
  },
  {
   "core_project_num": "K08CA266740",
@@ -5109,25 +5109,6 @@
   "ic": "NCI",
   "po": "Sangeeta Ahuja Ghosh",
   "url": "https://reporter.nih.gov/project-details/11385001"
- },
- {
-  "core_project_num": "K99CA297013",
-  "appl_id": 11284083,
-  "title": "Developing and Validating Prognostic Models for Black women with Endometrial Cancer following Hysterectomy",
-  "pi": "Peeri, Noah Charles",
-  "org": "SLOAN-KETTERING INST CAN RESEARCH",
-  "city": "New York",
-  "state": "NY",
-  "country": "UNITED STATES",
-  "mechanism": "K99",
-  "subarea": "Solid tumor",
-  "research_type": "Patient-oriented / Clinical",
-  "amount": 132825,
-  "fiscal_year": 2026,
-  "start_year": 2025,
-  "ic": "NCI",
-  "po": "Sergey  Radaev",
-  "url": "https://reporter.nih.gov/project-details/11284083"
  },
  {
   "core_project_num": "K12CA184746",
@@ -5622,25 +5603,6 @@
   "ic": "NCI",
   "po": "Michael K Schmidt",
   "url": "https://reporter.nih.gov/project-details/11354122"
- },
- {
-  "core_project_num": "K99CA293137",
-  "appl_id": 11365830,
-  "title": "Interrogating Immunomodulation for Anti-Metastatic Therapy",
-  "pi": "Mcginnis, Christopher Swart",
-  "org": "STANFORD UNIVERSITY",
-  "city": "Stanford",
-  "state": "CA",
-  "country": "UNITED STATES",
-  "mechanism": "K99",
-  "subarea": "Immuno-oncology",
-  "research_type": "Laboratory / Translational",
-  "amount": 113147,
-  "fiscal_year": 2026,
-  "start_year": 2025,
-  "ic": "NCI",
-  "po": "Michael K Schmidt",
-  "url": "https://reporter.nih.gov/project-details/11365830"
  },
  {
   "core_project_num": "K08CA267057",
@@ -7581,25 +7543,6 @@
   "url": "https://reporter.nih.gov/project-details/11419826"
  },
  {
-  "core_project_num": "K99CA299410",
-  "appl_id": 11369083,
-  "title": "Beyond Lysis: Deciphering the Role of Perforin-Mediated Ferroptosis in Anti-Tumor Immunity",
-  "pi": "Bell, Hannah Noelle",
-  "org": "UNIVERSITY OF MICHIGAN AT ANN ARBOR",
-  "city": "Ann Arbor",
-  "state": "MI",
-  "country": "UNITED STATES",
-  "mechanism": "K99",
-  "subarea": "Immuno-oncology",
-  "research_type": "Laboratory / Translational",
-  "amount": 139968,
-  "fiscal_year": 2026,
-  "start_year": 2025,
-  "ic": "NCI",
-  "po": "Sergey  Radaev",
-  "url": "https://reporter.nih.gov/project-details/11369083"
- },
- {
   "core_project_num": "K08CA273047",
   "appl_id": 11376160,
   "title": "Optimization of Thyroid Nodule Care Delivery to Reduce the Burden of Thyroid Cancer",
@@ -8740,44 +8683,6 @@
   "url": "https://reporter.nih.gov/project-details/11353041"
  },
  {
-  "core_project_num": "K22CA276360",
-  "appl_id": 11250042,
-  "title": "Unraveling the functional contribution of extracellular vesicles in pancreatic cancer",
-  "pi": "Mcandrews, Kathleen ",
-  "org": "UNIVERSITY OF TX MD ANDERSON CAN CTR",
-  "city": "Houston",
-  "state": "TX",
-  "country": "UNITED STATES",
-  "mechanism": "K22",
-  "subarea": "Solid tumor",
-  "research_type": "Laboratory / Translational",
-  "amount": 192240,
-  "fiscal_year": 2026,
-  "start_year": 2024,
-  "ic": "NCI",
-  "po": "Sonia B Jakowlew",
-  "url": "https://reporter.nih.gov/project-details/11250042"
- },
- {
-  "core_project_num": "K99CA296780",
-  "appl_id": 11300201,
-  "title": "The role of oral microbiota in metastatic brain tumors",
-  "pi": "Morad, Golnaz ",
-  "org": "UNIVERSITY OF TX MD ANDERSON CAN CTR",
-  "city": "Houston",
-  "state": "TX",
-  "country": "UNITED STATES",
-  "mechanism": "K99",
-  "subarea": "Other / Multi-cancer",
-  "research_type": "Laboratory / Translational",
-  "amount": 112026,
-  "fiscal_year": 2026,
-  "start_year": 2025,
-  "ic": "NCI",
-  "po": "Michael K Schmidt",
-  "url": "https://reporter.nih.gov/project-details/11300201"
- },
- {
   "core_project_num": "K08CA296776",
   "appl_id": 11258965,
   "title": "Harnessing ecDNA Detection in Antigen-Presenting Cells for Anti-Tumor Immunity",
@@ -8833,25 +8738,6 @@
   "ic": "NCI",
   "po": "Corinne A Boulanger-Espeut",
   "url": "https://reporter.nih.gov/project-details/11280965"
- },
- {
-  "core_project_num": "K99CA286745",
-  "appl_id": 11261645,
-  "title": "Mechanisms of CDH1-inactivated advanced gastric adenocarcinoma tumorigenesis",
-  "pi": "Zou, Gengyi ",
-  "org": "UNIVERSITY OF TX MD ANDERSON CAN CTR",
-  "city": "Houston",
-  "state": "TX",
-  "country": "UNITED STATES",
-  "mechanism": "K99",
-  "subarea": "Solid tumor",
-  "research_type": "Laboratory / Translational",
-  "amount": 129664,
-  "fiscal_year": 2026,
-  "start_year": 2025,
-  "ic": "NCI",
-  "po": "Corinne A Boulanger-Espeut",
-  "url": "https://reporter.nih.gov/project-details/11261645"
  },
  {
   "core_project_num": "K23HL157758",
@@ -10090,7 +9976,7 @@
  },
  {
   "core_project_num": "K01HL175220",
-  "appl_id": 11193466,
+  "appl_id": 11609574,
   "title": "Targeted, adaptive and time-variant strategies for bleed prevention across the lifespan for persons with hemophilia A",
   "pi": "Goshua, George ",
   "org": "YALE UNIVERSITY",
@@ -10100,12 +9986,12 @@
   "mechanism": "K01",
   "subarea": "Benign hematology",
   "research_type": "Patient-oriented / Clinical",
-  "amount": 173440,
+  "amount": 173426,
   "fiscal_year": 2026,
   "start_year": 2024,
   "ic": "NHLBI",
   "po": "Ronald Q Warren",
-  "url": "https://reporter.nih.gov/project-details/11193466"
+  "url": "https://reporter.nih.gov/project-details/11609574"
  },
  {
   "core_project_num": "K08HL175198",
