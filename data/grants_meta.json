@@ -1,23 +1,26 @@
 {
- "updated_at": "2026-10-26 11:10 UTC",
- "total_awards": 583,
- "total_funding": 125414415,
- "new_since_last": [],
- "new_count": 0,
+ "updated_at": "2026-11-02 11:06 UTC",
+ "total_awards": 585,
+ "total_funding": 125682033,
+ "new_since_last": [
+  "K01HL169309",
+  "K08HL166969"
+ ],
+ "new_count": 2,
  "by_subarea": {
   "Solid tumor": 185,
   "Other / Multi-cancer": 145,
   "Immuno-oncology": 74,
-  "Benign hematology": 68,
-  "Leukemia / MDS / MPN": 57,
+  "Benign hematology": 69,
+  "Leukemia / MDS / MPN": 58,
   "Cellular therapy / BMT": 35,
   "Lymphoma": 14,
   "Myeloma / Plasma cell": 5
  },
  "by_mechanism": {
-  "K08": 275,
+  "K08": 276,
   "K99": 133,
-  "K01": 55,
+  "K01": 56,
   "K22": 47,
   "K23": 33,
   "K12": 28,
@@ -25,8 +28,8 @@
   "K38": 4
  },
  "by_research_type": {
-  "Laboratory / Translational": 417,
-  "Patient-oriented / Clinical": 166
+  "Laboratory / Translational": 418,
+  "Patient-oriented / Clinical": 167
  },
  "by_state": {
   "MA": 88,
@@ -41,13 +44,13 @@
   "MD": 19,
   "IL": 18,
   "TN": 18,
-  "MO": 16,
+  "MO": 17,
   "WA": 14,
   "FL": 13,
   "CO": 11,
+  "WI": 10,
   "AL": 10,
   "VA": 10,
-  "WI": 9,
   "NJ": 8,
   "IN": 8,
   "MN": 8,
@@ -71,7 +74,7 @@
  "by_fiscal_year": {
   "2024": 4,
   "2025": 40,
-  "2026": 539
+  "2026": 541
  },
  "by_start_year": {
   "1997": 2,
@@ -89,8 +92,8 @@
   "2021": 27,
   "2022": 67,
   "2023": 81,
-  "2024": 99,
-  "2025": 125,
+  "2024": 100,
+  "2025": 126,
   "2026": 166
  },
  "top_orgs": {
@@ -103,8 +106,8 @@
   "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO": 16,
   "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 16,
   "DUKE UNIVERSITY": 15,
+  "WASHINGTON UNIVERSITY": 15,
   "UNIVERSITY OF TX MD ANDERSON CAN CTR": 14,
-  "WASHINGTON UNIVERSITY": 14,
   "UT SOUTHWESTERN MEDICAL CENTER": 13,
   "OHIO STATE UNIVERSITY": 12,
   "UNIV OF NORTH CAROLINA CHAPEL HILL": 12,
