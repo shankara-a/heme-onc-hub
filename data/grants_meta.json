@@ -1,15 +1,14 @@
 {
- "updated_at": "2026-11-02 11:06 UTC",
- "total_awards": 585,
- "total_funding": 125682033,
+ "updated_at": "2026-11-09 11:06 UTC",
+ "total_awards": 586,
+ "total_funding": 125835987,
  "new_since_last": [
-  "K01HL169309",
-  "K08HL166969"
+  "K99CA279895"
  ],
- "new_count": 2,
+ "new_count": 1,
  "by_subarea": {
   "Solid tumor": 185,
-  "Other / Multi-cancer": 145,
+  "Other / Multi-cancer": 146,
   "Immuno-oncology": 74,
   "Benign hematology": 69,
   "Leukemia / MDS / MPN": 58,
@@ -19,7 +18,7 @@
  },
  "by_mechanism": {
   "K08": 276,
-  "K99": 133,
+  "K99": 134,
   "K01": 56,
   "K22": 47,
   "K23": 33,
@@ -29,12 +28,12 @@
  },
  "by_research_type": {
   "Laboratory / Translational": 418,
-  "Patient-oriented / Clinical": 167
+  "Patient-oriented / Clinical": 168
  },
  "by_state": {
   "MA": 88,
   "NY": 77,
-  "CA": 60,
+  "CA": 61,
   "TX": 35,
   "NC": 28,
   "PA": 27,
@@ -72,7 +71,7 @@
   "MS": 1
  },
  "by_fiscal_year": {
-  "2024": 4,
+  "2024": 5,
   "2025": 40,
   "2026": 541
  },
@@ -91,7 +90,7 @@
   "2020": 2,
   "2021": 27,
   "2022": 67,
-  "2023": 81,
+  "2023": 82,
   "2024": 100,
   "2025": 126,
   "2026": 166
@@ -101,7 +100,7 @@
   "DANA-FARBER CANCER INST": 31,
   "MASSACHUSETTS GENERAL HOSPITAL": 24,
   "YALE UNIVERSITY": 21,
-  "STANFORD UNIVERSITY": 17,
+  "STANFORD UNIVERSITY": 18,
   "JOHNS HOPKINS UNIVERSITY": 16,
   "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO": 16,
   "UNIVERSITY OF MICHIGAN AT ANN ARBOR": 16,

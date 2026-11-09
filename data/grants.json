@@ -11077,6 +11077,25 @@
   "url": "https://reporter.nih.gov/project-details/10773164"
  },
  {
+  "core_project_num": "K99CA279895",
+  "appl_id": 10896175,
+  "title": "Defining kinase interaction pathways to enhance anti-cancer efficacy and minimize associated morbidities of kinase inhibitor drugs.",
+  "pi": "Hnatiuk Hnatiuk, Anna Pavlovna",
+  "org": "STANFORD UNIVERSITY",
+  "city": "Stanford",
+  "state": "CA",
+  "country": "UNITED STATES",
+  "mechanism": "K99",
+  "subarea": "Other / Multi-cancer",
+  "research_type": "Patient-oriented / Clinical",
+  "amount": 153954,
+  "fiscal_year": 2024,
+  "start_year": 2023,
+  "ic": "NCI",
+  "po": "Michael K Schmidt",
+  "url": "https://reporter.nih.gov/project-details/10896175"
+ },
+ {
   "core_project_num": "K99CA270285",
   "appl_id": 10929361,
   "title": "The context-dependent role of Caveolin-1 as a driver of cellular adaptation in Ewing Sarcoma",
