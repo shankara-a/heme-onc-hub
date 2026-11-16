@@ -1,11 +1,9 @@
 {
- "updated_at": "2026-11-09 11:06 UTC",
+ "updated_at": "2026-11-16 11:07 UTC",
  "total_awards": 586,
  "total_funding": 125835987,
- "new_since_last": [
-  "K99CA279895"
- ],
- "new_count": 1,
+ "new_since_last": [],
+ "new_count": 0,
  "by_subarea": {
   "Solid tumor": 185,
   "Other / Multi-cancer": 146,
